@@ -1,0 +1,1305 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sreeraj Ramachandran" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Dataset The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and angles.
+The gender distribution of the subjects is $(53,65\%)$ male and $(46,35\%)$ female, and approximately $66\%$ of the subjects are under $31$ years old." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/updates/ufpr-results/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&family=Raleway:wght@300;400;500;600&family=Josefin+Slab:wght@400;500;600;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&family=Raleway:wght@300;400;500;600&family=Josefin+Slab:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.528ff0bd2d700a476a92f2195696417d.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="/updates/ufpr-results/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="bias (NSF Project)" />
+  <meta property="og:url" content="/updates/ufpr-results/" />
+  <meta property="og:title" content="UFPR Preliminary Results | bias (NSF Project)" />
+  <meta property="og:description" content="Dataset The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and angles.
+The gender distribution of the subjects is $(53,65\%)$ male and $(46,35\%)$ female, and approximately $66\%$ of the subjects are under $31$ years old." /><meta property="og:image" content="/updates/ufpr-results/featured.jpg" />
+    <meta property="twitter:image" content="/updates/ufpr-results/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-10-31T11:35:52-05:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-10-31T11:35:52-05:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>UFPR Preliminary Results | bias (NSF Project)</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c155b7f4ec734e028eaee7a3857a0979" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">bias (NSF Project)</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">bias (NSF Project)</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post"><span>posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>people</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/updates"><span>updates</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/event"><span>events</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contact"><span>contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>UFPR Preliminary Results</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 31, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+    <span class="middot-divider"></span>
+    <a href="/updates/ufpr-results/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 623px;">
+  <div style="position: relative">
+    <img src="/updates/ufpr-results/featured_hu41e659ab6af0531c3256c040ac7c94bf_3117862_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="dataset">Dataset</h2>
+<p>The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and
+angles.</p>
+<p>The gender distribution of the subjects is $(53,65\%)$ male and
+$(46,35\%)$ female, and approximately $66\%$ of the subjects are
+under $31$ years old. In total, the dataset has images captured
+from $196$ different mobile devices – the five most used device
+models were: Apple iPhone 8 $(4.1\%)$, Apple iPhone 9 $(3.1\%)$,
+Xiaomi Mi 8 Lite $(3.0\%)$, Apple iPhone 7 $(3.0\%)$, and Samsung
+Galaxy J7 Prime $(2.7\%)$.</p>
+<h2 id="gender-classification-results">Gender Classification Results</h2>
+<h4 id='cm_title' style="text-align:center"></h4>
+<div class='cm_container'>
+  <div id="cm_btns_model" class="btn-group-vertical cm_btns_model"></div>
+  <div class="cm">
+    <div id="cm_btns_tm" class="btn-group cm_btns_tm">
+      <input id="cm_btns_tm_5050" type="button" value="F50M50" class="btn btn-light active"></input>
+      <input id="cm_btns_tm_2575" type="button" value="F25M75" class="btn btn-light"></input>
+      <input id="cm_btns_tm_7525" type="button" value="F75M25" class="btn btn-light"></input>
+    </div>
+    <div id='cm'></div>
+  </div>
+</div>
+<div class="cm_container">
+  <div id="gc_btns_model" class="btn-group-vertical cm_btns_model"></div>
+  <div class="cm">
+    <div id="gc_acc"></div>
+  </div>
+</div>
+<h2 id="subject-verification-results">Subject Verification Results</h2>
+<div class="cm_container">
+  <div id="tb_btns_model" class="btn-group-vertical cm_btns_model"></div>
+  <div class="cm">
+    <div id="sv_eer"></div>
+  </div>
+</div>
+<div id="tb_btns_tm" class="btn-group cm_btns_tm cm_container">
+    <input id="tb_btns_eer" type="button" value="EER" class="btn btn-light active"></input>
+    <input id="tb_btns_auc" type="button" value="AUC" class="btn btn-light"></input>
+</div>
+<h3 id="subject-verification-all-results-table">Subject Verification All Results Table</h3>
+<div id="sv_table" class="cm_container"></div>
+<h2 id="visualizations">Visualizations</h2>
+<h3 id="gradcam">GradCAM</h3>
+<div class="gallery_container">
+  <div style="display:flex;align-items:baseline">
+    <h4 style="text-align:center;width:100%">GradCAM</h4>
+    <input id="viz_gradcam_avgbtn" type="button" value="Show Averaged" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl"></input>
+  </div>
+  <div class="viz_container">
+    <div id="viz_gradcam_models" class="viz_btns btn-group-vertical"></div>
+    <div id="viz_gradcam" class="gallery"></div>
+    <div id="viz_gradcam_class" class="viz_btns btn-group-vertical viz_class"></div>
+  </div>
+  <div id="viz_gradcam_opts" class="viz_opts btn-group"></div>
+</div>
+<h3 id="guided-gradcam">Guided GradCAM</h3>
+<div class="gallery_container">
+  <div style="display:flex;align-items:baseline">
+    <h4 style="text-align:center;width:100%">Guided GradCAM</h4>
+    <input id="viz_guided_gradcam_avgbtn" type="button" value="Show Averaged" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl"></input>
+  </div>
+  <div class="viz_container">
+    <div id="viz_guided_gradcam_models" class="viz_btns btn-group-vertical"></div>
+    <div id="viz_guided_gradcam" class="gallery"></div>
+    <div id="viz_guided_gradcam_class" class="viz_btns btn-group-vertical viz_class"></div>
+  </div>
+  <div id="viz_guided_gradcam_opts" class="viz_opts btn-group"></div>
+</div>
+<h3 id="occlusion-sensitivity">Occlusion Sensitivity</h3>
+<div class="gallery_container">
+  <div style="display:flex;align-items:baseline">
+    <h4 style="text-align:center;width:100%">Occlusion Sensitivity</h4>
+    <input id="viz_occlusion_sensitivity_avgbtn" type="button" value="Show Averaged" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl"></input>
+  </div>
+  <div class="viz_container">
+    <div id="viz_occlusion_sensitivity_models" class="viz_btns btn-group-vertical"></div>
+    <div id="viz_occlusion_sensitivity" class="gallery"></div>
+    <div id="viz_occlusion_sensitivity_class" class="viz_btns btn-group-vertical viz_class"></div>
+  </div>
+  <div id="viz_occlusion_sensitivity_opts" class="viz_opts btn-group"></div>
+</div>
+<h3 id="vanilla-gradients">Vanilla Gradients</h3>
+<div class="gallery_container">
+  <div style="display:flex;align-items:baseline">
+    <h4 style="text-align:center;width:100%">Vanilla Gradients</h4>
+    <input id="viz_vanilla_gradients_avgbtn" type="button" value="Show Averaged" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl"></input>
+  </div>
+  <div class="viz_container">
+    <div id="viz_vanilla_gradients_models" class="viz_btns btn-group-vertical"></div>
+    <div id="viz_vanilla_gradients" class="gallery"></div>
+    <div id="viz_vanilla_gradients_class" class="viz_btns btn-group-vertical viz_class"></div>
+  </div>
+  <div id="viz_vanilla_gradients_opts" class="viz_opts btn-group"></div>
+</div>
+<h3 id="integrated-gradients">Integrated Gradients</h3>
+<div class="gallery_container">
+  <div style="display:flex;align-items:baseline">
+    <h4 style="text-align:center;width:100%">Integrated Gradients</h4>
+    <input id="viz_integrated_gradients_avgbtn" type="button" value="Show Averaged" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl"></input>
+  </div>
+  <div class="viz_container">
+    <div id="viz_integrated_gradients_models" class="viz_btns btn-group-vertical"></div>
+    <div id="viz_integrated_gradients" class="gallery"></div>
+    <div id="viz_integrated_gradients_class" class="viz_btns btn-group-vertical viz_class"></div>
+  </div>
+  <div id="viz_integrated_gradients_opts" class="viz_opts btn-group"></div>
+</div>
+<h3 id="smoothgrad">SmoothGrad</h3>
+<div class="gallery_container">
+  <div style="display:flex;align-items:baseline">
+    <h4 style="text-align:center;width:100%">SmoothGrad</h4>
+    <input id="viz_smoothgrad_avgbtn" type="button" value="Show Averaged" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl"></input>
+  </div>
+  <div class="viz_container">
+    <div id="viz_smoothgrad_models" class="viz_btns btn-group-vertical"></div>
+    <div id="viz_smoothgrad" class="gallery"></div>
+    <div id="viz_smoothgrad_class" class="viz_btns btn-group-vertical viz_class"></div>
+  </div>
+  <div id="viz_smoothgrad_opts" class="viz_opts btn-group"></div>
+</div>
+<h3 id="gradients-x-input">Gradients x Input</h3>
+<div class="gallery_container">
+  <div style="display:flex;align-items:baseline">
+    <h4 style="text-align:center;width:100%">Gradients x Input</h4>
+    <input id="viz_gradients_input_avgbtn" type="button" value="Show Averaged" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl"></input>
+  </div>
+  <div class="viz_container">
+    <div id="viz_gradients_input_models" class="viz_btns btn-group-vertical"></div>
+    <div id="viz_gradients_input" class="gallery"></div>
+    <div id="viz_gradients_input_class" class="viz_btns btn-group-vertical viz_class"></div>
+  </div>
+  <div id="viz_gradients_input_opts" class="viz_opts btn-group"></div>
+</div>
+<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Averaged Map</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <img id="viz_avg_modal" src="">
+    </div>
+  </div>
+</div>
+<hr>
+<h2 id="references">References</h2>
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+Bibliography called, but no references
+
+
+
+<script type="module" src="ufpr.js"></script>
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/updates/ufpr-results/&amp;text=UFPR%20Preliminary%20Results" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/updates/ufpr-results/&amp;t=UFPR%20Preliminary%20Results" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=UFPR%20Preliminary%20Results&amp;body=/updates/ufpr-results/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/updates/ufpr-results/&amp;title=UFPR%20Preliminary%20Results" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=UFPR%20Preliminary%20Results%20/updates/ufpr-results/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/updates/ufpr-results/&amp;title=UFPR%20Preliminary%20Results" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/sreeraj-ramachandran/"><img class="avatar mr-3 avatar-circle" src="/author/sreeraj-ramachandran/avatar_hu6b2200fa1a956023790260467516b6c4_13472_270x270_fill_q75_lanczos_center.jpg" alt="Sreeraj Ramachandran"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/sreeraj-ramachandran/">Sreeraj Ramachandran</a></h5>
+      <h6 class="card-subtitle">Graduate Research Assistant</h6>
+      <p class="card-text">My research interests include Computer Vision, Biometrics, Bias AI, GANs and adversarial Attacks</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:sxramachandran2@shockers.wichita.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=1qlcdBgAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/sreerajr000" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  <section id="comments">
+    
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "nsf-ocular-bias" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+      <script id="dsq-count-scr" src="https://nsf-ocular-bias.disqus.com/count.js" async></script>
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.4bba0826db6409c865d2e7b99039d6d0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
