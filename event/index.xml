@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Page Under Construction !!!! | bias (NSF Project)</title>
-    <link>https://sreerajramachandran.github.io/nfs/event/</link>
-      <atom:link href="https://sreerajramachandran.github.io/nfs/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sreerajramachandran.github.io/nsf/event/</link>
+      <atom:link href="https://sreerajramachandran.github.io/nsf/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Page Under Construction !!!!</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sreerajramachandran.github.io/nfs/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://sreerajramachandran.github.io/nsf/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Page Under Construction !!!!</title>
-      <link>https://sreerajramachandran.github.io/nfs/event/</link>
+      <link>https://sreerajramachandran.github.io/nsf/event/</link>
     </image>
     
     <item>
       <title>Example Event</title>
-      <link>https://sreerajramachandran.github.io/nfs/event/example/</link>
+      <link>https://sreerajramachandran.github.io/nsf/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nfs/event/example/</guid>
+      <guid>https://sreerajramachandran.github.io/nsf/event/example/</guid>
       <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
