@@ -2,26 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anoop Krishnan | bias (NSF Project)</title>
-    <link>/author/anoop-krishnan/</link>
-      <atom:link href="/author/anoop-krishnan/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sreerajramachandran.github.io/nfs/author/anoop-krishnan/</link>
+      <atom:link href="https://sreerajramachandran.github.io/nfs/author/anoop-krishnan/index.xml" rel="self" type="application/rss+xml" />
     <description>Anoop Krishnan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Wed, 13 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/author/anoop-krishnan/avatar_hu5ff5eb1c5525e79deb9a5be5c054d943_55005_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://sreerajramachandran.github.io/nfs/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Anoop Krishnan</title>
-      <link>/author/anoop-krishnan/</link>
-    </image>
-    
-  </channel>
-</rss>
-nk>
+      <link>https://sreerajramachandran.github.io/nfs/author/anoop-krishnan/</link>
     </image>
     
     <item>
       <title>Investigating Fairness of Ocular Biometrics Among Young, Middle-Aged, and Older Adults</title>
-      <link>/publication/iccst_2021/</link>
+      <link>https://sreerajramachandran.github.io/nfs/publication/iccst_2021/</link>
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/iccst_2021/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/publication/iccst_2021/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

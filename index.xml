@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bias (NSF Project)</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sreerajramachandran.github.io/nfs/</link>
+      <atom:link href="https://sreerajramachandran.github.io/nfs/index.xml" rel="self" type="application/rss+xml" />
     <description>bias (NSF Project)</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://sreerajramachandran.github.io/nfs/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>bias (NSF Project)</title>
-      <link>/</link>
+      <link>https://sreerajramachandran.github.io/nfs/</link>
     </image>
     
     <item>
       <title>Example Event</title>
-      <link>/event/example/</link>
+      <link>https://sreerajramachandran.github.io/nfs/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/event/example/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/event/example/</guid>
       <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
@@ -29,9 +29,9 @@
     
     <item>
       <title>Notredame Preliminary Results</title>
-      <link>/updates/notredame-results/</link>
+      <link>https://sreerajramachandran.github.io/nfs/updates/notredame-results/</link>
       <pubDate>Sun, 31 Oct 2021 11:35:52 -0500</pubDate>
-      <guid>/updates/notredame-results/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/updates/notredame-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;h2 id=&#34;gender-classification-results&#34;&gt;Gender Classification Results&lt;/h2&gt;
 &lt;h4 id=&#39;cm_title&#39; style=&#34;text-align:center&#34;&gt;&lt;/h4&gt;
@@ -195,9 +195,9 @@ Bibliography called, but no references
     
     <item>
       <title>UFPR Preliminary Results</title>
-      <link>/updates/ufpr-results/</link>
+      <link>https://sreerajramachandran.github.io/nfs/updates/ufpr-results/</link>
       <pubDate>Sun, 31 Oct 2021 11:35:52 -0500</pubDate>
-      <guid>/updates/ufpr-results/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/updates/ufpr-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;p&gt;The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and
 angles.&lt;/p&gt;
@@ -370,9 +370,9 @@ Bibliography called, but no references
     
     <item>
       <title>Investigating Fairness of Ocular Biometrics Among Young, Middle-Aged, and Older Adults</title>
-      <link>/publication/iccst_2021/</link>
+      <link>https://sreerajramachandran.github.io/nfs/publication/iccst_2021/</link>
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/iccst_2021/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/publication/iccst_2021/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -384,9 +384,9 @@ Bibliography called, but no references
     
     <item>
       <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
-      <link>/post/20-12-02-icml-best-paper/</link>
+      <link>https://sreerajramachandran.github.io/nfs/post/20-12-02-icml-best-paper/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/20-12-02-icml-best-paper/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/post/20-12-02-icml-best-paper/</guid>
       <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
 &lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
@@ -483,9 +483,9 @@ Bibliography called, but no references
     
     <item>
       <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
-      <link>/post/20-12-01-wowchemy-prize/</link>
+      <link>https://sreerajramachandran.github.io/nfs/post/20-12-01-wowchemy-prize/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/20-12-01-wowchemy-prize/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/post/20-12-01-wowchemy-prize/</guid>
       <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
 &lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
@@ -752,25 +752,25 @@ Bibliography called, but no references
     
     <item>
       <title></title>
-      <link>/admin/config.yml</link>
+      <link>https://sreerajramachandran.github.io/nfs/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/admin/config.yml</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/admin/config.yml</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/contact/</link>
+      <link>https://sreerajramachandran.github.io/nfs/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/contact/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/people/</link>
+      <link>https://sreerajramachandran.github.io/nfs/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/people/</guid>
+      <guid>https://sreerajramachandran.github.io/nfs/people/</guid>
       <description></description>
     </item>
     
