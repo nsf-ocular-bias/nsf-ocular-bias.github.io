@@ -1,6 +1,6 @@
 import * as d3 from "https://cdn.skypack.dev/d3@7"
 import "https://cdn.plot.ly/plotly-2.5.0.min.js"
-import "/nsf/tablefilter/tablefilter.js"
+import "/tablefilter/tablefilter.js"
 
 
 var networks = ["DenseNet121", "EfficientNetB0", "EfficientNetB4", "InceptionResNetV2", "InceptionV3", "MobileNetV2", "ResNet50", "Xception"]

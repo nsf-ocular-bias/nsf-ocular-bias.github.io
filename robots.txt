@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://sreerajramachandran.github.io/nsf/sitemap.xml
+Sitemap: https://nsf-ocular-bias.github.io/sitemap.xml

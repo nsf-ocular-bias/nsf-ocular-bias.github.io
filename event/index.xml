@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events | NSF Project</title>
-    <link>https://sreerajramachandran.github.io/nsf/event/</link>
-      <atom:link href="https://sreerajramachandran.github.io/nsf/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nsf-ocular-bias.github.io/event/</link>
+      <atom:link href="https://nsf-ocular-bias.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Events</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sun, 21 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sreerajramachandran.github.io/nsf/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png</url>
+      <url>https://nsf-ocular-bias.github.io/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png</url>
       <title>Events</title>
-      <link>https://sreerajramachandran.github.io/nsf/event/</link>
+      <link>https://nsf-ocular-bias.github.io/event/</link>
     </image>
     
     <item>
       <title>Understanding and Mitigating Demographic Bias in Biometric Systems(UMDBB)</title>
-      <link>https://sreerajramachandran.github.io/nsf/event/umdbb/</link>
+      <link>https://nsf-ocular-bias.github.io/event/umdbb/</link>
       <pubDate>Sun, 21 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/event/umdbb/</guid>
+      <guid>https://nsf-ocular-bias.github.io/event/umdbb/</guid>
       <description>&lt;h2 id=&#34;goals-and-technical-issues-addressed&#34;&gt;Goals and Technical Issues addressed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;To address significant advances in the field of fairness and bias in AI with an application to biometrics systems.&lt;/li&gt;
