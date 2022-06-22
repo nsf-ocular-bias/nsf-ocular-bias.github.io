@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Updates | bias (NSF Project)</title>
-    <link>https://sreerajramachandran.github.io/nsf/updates/</link>
-      <atom:link href="https://sreerajramachandran.github.io/nsf/updates/index.xml" rel="self" type="application/rss+xml" />
+    <title>Updates | Probing Fairness of Ocular Biometrics Methods Across Demographic Variations</title>
+    <link>/updates/</link>
+      <atom:link href="/updates/index.xml" rel="self" type="application/rss+xml" />
     <description>Updates</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sun, 31 Oct 2021 11:35:52 -0500</lastBuildDate>
     <image>
-      <url>https://sreerajramachandran.github.io/nsf/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Updates</title>
-      <link>https://sreerajramachandran.github.io/nsf/updates/</link>
+      <link>/updates/</link>
     </image>
     
     <item>
       <title>Notredame Preliminary Results</title>
-      <link>https://sreerajramachandran.github.io/nsf/updates/notredame-results/</link>
+      <link>/updates/notredame-results/</link>
       <pubDate>Sun, 31 Oct 2021 11:35:52 -0500</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/updates/notredame-results/</guid>
+      <guid>/updates/notredame-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;h2 id=&#34;gender-classification-results&#34;&gt;Gender Classification Results&lt;/h2&gt;
 &lt;h4 id=&#39;cm_title&#39; style=&#34;text-align:center&#34;&gt;&lt;/h4&gt;
@@ -180,9 +180,9 @@ Bibliography called, but no references
     
     <item>
       <title>UFPR Preliminary Results</title>
-      <link>https://sreerajramachandran.github.io/nsf/updates/ufpr-results/</link>
+      <link>/updates/ufpr-results/</link>
       <pubDate>Sun, 31 Oct 2021 11:35:52 -0500</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/updates/ufpr-results/</guid>
+      <guid>/updates/ufpr-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;p&gt;The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and
 angles.&lt;/p&gt;

@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Page Under Construction !!!! | bias (NSF Project)</title>
-    <link>https://sreerajramachandran.github.io/nsf/event/</link>
-      <atom:link href="https://sreerajramachandran.github.io/nsf/event/index.xml" rel="self" type="application/rss+xml" />
-    <description>Page Under Construction !!!!</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <title>Events | Probing Fairness of Ocular Biometrics Methods Across Demographic Variations</title>
+    <link>/event/</link>
+      <atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Events</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sun, 21 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sreerajramachandran.github.io/nsf/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>Page Under Construction !!!!</title>
-      <link>https://sreerajramachandran.github.io/nsf/event/</link>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Events</title>
+      <link>/event/</link>
     </image>
     
     <item>
-      <title>Example Event</title>
-      <link>https://sreerajramachandran.github.io/nsf/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/event/example/</guid>
-      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+      <title>Understanding and Mitigating Demographic Bias in Biometric Systems(UMDBB)</title>
+      <link>/event/umdbb/</link>
+      <pubDate>Sun, 21 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/event/umdbb/</guid>
+      <description>&lt;h2 id=&#34;goals-and-technical-issues-addressed&#34;&gt;Goals and Technical Issues addressed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;To address significant advances in the field of fairness and bias in AI with an application to biometrics systems.&lt;/li&gt;
+&lt;li&gt;To provide a common forum for applied and academic researchers to exchange ideas on metrics and methods for evaluating and mitigating demographic effects in biometric performance.&lt;/li&gt;
+&lt;li&gt;To address the disconnect between the work done by government, academicians, and industry.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+&lt;h2 id=&#34;topics-covered&#34;&gt;Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistical modeling of the demographic bias of the biometric systems across age, gender, and race in different image spectrums.&lt;/li&gt;
+&lt;li&gt;Theoretical explanation and nomenclature regarding demographic effects in biometric systems.&lt;/li&gt;
+&lt;li&gt;Modeling the compound impact of covariates such as lighting variations, make-up, pose, etc., in differential accuracy of the biometric systems across demographic variations.&lt;/li&gt;
+&lt;li&gt;Explainable AI techniques to understand the cause of demographic variations in biometric systems.&lt;/li&gt;
+&lt;li&gt;Evaluation of bias of speaker recognition system, and other behavioral biometrics.&lt;/li&gt;
+&lt;li&gt;Biological origins of demographic effects on physical and behavioral biometric traits.&lt;/li&gt;
+&lt;li&gt;Bias mitigation techniques that offer the best trade-off between accuracy and bias.&lt;/li&gt;
+&lt;li&gt;Bias mitigation techniques in the absence of demographic variables.&lt;/li&gt;
+&lt;li&gt;Techniques on enhancing privacy and fairness of the biometric surveillance system.&lt;/li&gt;
+&lt;li&gt;Evaluation of bias of biometric data manipulation detection algorithms across demographics.&lt;/li&gt;
+&lt;li&gt;Investigation of novel bias-free biometric modalities.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

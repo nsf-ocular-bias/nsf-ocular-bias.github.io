@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sreeraj Ramachandran | bias (NSF Project)</title>
-    <link>https://sreerajramachandran.github.io/nsf/author/sreeraj-ramachandran/</link>
-      <atom:link href="https://sreerajramachandran.github.io/nsf/author/sreeraj-ramachandran/index.xml" rel="self" type="application/rss+xml" />
+    <title>Sreeraj Ramachandran | Probing Fairness of Ocular Biometrics Methods Across Demographic Variations</title>
+    <link>/author/sreeraj-ramachandran/</link>
+      <atom:link href="/author/sreeraj-ramachandran/index.xml" rel="self" type="application/rss+xml" />
     <description>Sreeraj Ramachandran</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright>
     <image>
-      <url>https://sreerajramachandran.github.io/nsf/author/sreeraj-ramachandran/avatar_hu6b2200fa1a956023790260467516b6c4_13472_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>/author/sreeraj-ramachandran/avatar_hu6b2200fa1a956023790260467516b6c4_13472_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Sreeraj Ramachandran</title>
-      <link>https://sreerajramachandran.github.io/nsf/author/sreeraj-ramachandran/</link>
+      <link>/author/sreeraj-ramachandran/</link>
     </image>
     
   </channel>

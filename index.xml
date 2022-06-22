@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bias (NSF Project)</title>
-    <link>https://sreerajramachandran.github.io/nsf/</link>
-      <atom:link href="https://sreerajramachandran.github.io/nsf/index.xml" rel="self" type="application/rss+xml" />
-    <description>bias (NSF Project)</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <title>Probing Fairness of Ocular Biometrics Methods Across Demographic Variations</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Probing Fairness of Ocular Biometrics Methods Across Demographic Variations</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sun, 21 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sreerajramachandran.github.io/nsf/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>bias (NSF Project)</title>
-      <link>https://sreerajramachandran.github.io/nsf/</link>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Probing Fairness of Ocular Biometrics Methods Across Demographic Variations</title>
+      <link>/</link>
     </image>
     
     <item>
-      <title>Example Event</title>
-      <link>https://sreerajramachandran.github.io/nsf/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/event/example/</guid>
-      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+      <title>Understanding and Mitigating Demographic Bias in Biometric Systems(UMDBB)</title>
+      <link>/event/umdbb/</link>
+      <pubDate>Sun, 21 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/event/umdbb/</guid>
+      <description>&lt;h2 id=&#34;goals-and-technical-issues-addressed&#34;&gt;Goals and Technical Issues addressed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;To address significant advances in the field of fairness and bias in AI with an application to biometrics systems.&lt;/li&gt;
+&lt;li&gt;To provide a common forum for applied and academic researchers to exchange ideas on metrics and methods for evaluating and mitigating demographic effects in biometric performance.&lt;/li&gt;
+&lt;li&gt;To address the disconnect between the work done by government, academicians, and industry.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+&lt;h2 id=&#34;topics-covered&#34;&gt;Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistical modeling of the demographic bias of the biometric systems across age, gender, and race in different image spectrums.&lt;/li&gt;
+&lt;li&gt;Theoretical explanation and nomenclature regarding demographic effects in biometric systems.&lt;/li&gt;
+&lt;li&gt;Modeling the compound impact of covariates such as lighting variations, make-up, pose, etc., in differential accuracy of the biometric systems across demographic variations.&lt;/li&gt;
+&lt;li&gt;Explainable AI techniques to understand the cause of demographic variations in biometric systems.&lt;/li&gt;
+&lt;li&gt;Evaluation of bias of speaker recognition system, and other behavioral biometrics.&lt;/li&gt;
+&lt;li&gt;Biological origins of demographic effects on physical and behavioral biometric traits.&lt;/li&gt;
+&lt;li&gt;Bias mitigation techniques that offer the best trade-off between accuracy and bias.&lt;/li&gt;
+&lt;li&gt;Bias mitigation techniques in the absence of demographic variables.&lt;/li&gt;
+&lt;li&gt;Techniques on enhancing privacy and fairness of the biometric surveillance system.&lt;/li&gt;
+&lt;li&gt;Evaluation of bias of biometric data manipulation detection algorithms across demographics.&lt;/li&gt;
+&lt;li&gt;Investigation of novel bias-free biometric modalities.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Notredame Preliminary Results</title>
-      <link>https://sreerajramachandran.github.io/nsf/updates/notredame-results/</link>
+      <link>/updates/notredame-results/</link>
       <pubDate>Sun, 31 Oct 2021 11:35:52 -0500</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/updates/notredame-results/</guid>
+      <guid>/updates/notredame-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;h2 id=&#34;gender-classification-results&#34;&gt;Gender Classification Results&lt;/h2&gt;
 &lt;h4 id=&#39;cm_title&#39; style=&#34;text-align:center&#34;&gt;&lt;/h4&gt;
@@ -195,9 +208,9 @@ Bibliography called, but no references
     
     <item>
       <title>UFPR Preliminary Results</title>
-      <link>https://sreerajramachandran.github.io/nsf/updates/ufpr-results/</link>
+      <link>/updates/ufpr-results/</link>
       <pubDate>Sun, 31 Oct 2021 11:35:52 -0500</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/updates/ufpr-results/</guid>
+      <guid>/updates/ufpr-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;p&gt;The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and
 angles.&lt;/p&gt;
@@ -370,9 +383,9 @@ Bibliography called, but no references
     
     <item>
       <title>Investigating Fairness of Ocular Biometrics Among Young, Middle-Aged, and Older Adults</title>
-      <link>https://sreerajramachandran.github.io/nsf/publication/iccst_2021/</link>
+      <link>/publication/iccst_2021/</link>
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/publication/iccst_2021/</guid>
+      <guid>/publication/iccst_2021/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -383,394 +396,26 @@ Bibliography called, but no references
     </item>
     
     <item>
-      <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
-      <link>https://sreerajramachandran.github.io/nsf/post/20-12-02-icml-best-paper/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/post/20-12-02-icml-best-paper/</guid>
-      <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
-&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
-&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;
-&lt;p&gt;And here is the citation of 
-
-
-
-
-
-
-
-&lt;span class=&#34;hugo-cite-intext&#34;
-        itemprop=&#34;citation&#34;&gt;(&lt;a href=&#34;#lessig-2002&#34;&gt;&lt;span class=&#34;visually-hidden&#34;&gt;Citation: &lt;/span&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;meta itemprop=&#34;givenName&#34; content=&#34;Lawrence&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Lessig&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;)
-    &lt;span class=&#34;hugo-cite-citation&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;span itemscope
-      itemtype=&#34;https://schema.org/CreativeWork&#34;
-      data-type=&#34;default&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Lessig&lt;/span&gt;,&amp;#32;
-    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lawrence&#34; /&gt;
-    L.&lt;/span&gt;
-  &amp;#32;
-  (n.d.).
-  &amp;#32;.
-  &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;. Let me continue with the text and see what happens.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-&lt;section class=&#34;hugo-cite-bibliography&#34;&gt;
-  &lt;dl&gt;
-    
-
-      &lt;div id=&#34;lessig-2002&#34;&gt;
-        &lt;dt&gt;
-          Lessig
-
-          
-          (n.d.)&lt;/dt&gt;
-
-        &lt;dd&gt;
-          
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;span itemscope
-      itemtype=&#34;https://schema.org/CreativeWork&#34;
-      data-type=&#34;default&#34;&gt;&lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;https://schema.org/Person&#34;&gt;&lt;span itemprop=&#34;familyName&#34;&gt;Lessig&lt;/span&gt;,&amp;#32;
-    &lt;meta itemprop=&#34;givenName&#34; content=&#34;Lawrence&#34; /&gt;
-    L.&lt;/span&gt;
-  &amp;#32;
-  (n.d.).
-  &amp;#32;.
-  &lt;/span&gt;
-&lt;/dd&gt;
-
-      &lt;/div&gt;
-  &lt;/dl&gt;
-&lt;/section&gt;</description>
-    </item>
-    
-    <item>
-      <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
-      <link>https://sreerajramachandran.github.io/nsf/post/20-12-01-wowchemy-prize/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/post/20-12-01-wowchemy-prize/</guid>
-      <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
-&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
-&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;Loss&lt;/th&gt;
-&lt;th&gt;FaceSwap&lt;/th&gt;
-&lt;th&gt;FaceSwap&lt;/th&gt;
-&lt;th&gt;Face2Face&lt;/th&gt;
-&lt;th&gt;Face2Face&lt;/th&gt;
-&lt;th&gt;FaceShifter&lt;/th&gt;
-&lt;th&gt;FaceShifter&lt;/th&gt;
-&lt;th&gt;FaceSwap-K&lt;/th&gt;
-&lt;th&gt;FaceSwap-K&lt;/th&gt;
-&lt;th&gt;NeuralTextures&lt;/th&gt;
-&lt;th&gt;NeuralTextures&lt;/th&gt;
-&lt;th&gt;Deepfakes&lt;/th&gt;
-&lt;th&gt;Deepfakes&lt;/th&gt;
-&lt;th&gt;Celeb-DF&lt;/th&gt;
-&lt;th&gt;Celeb-DF&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Loss&lt;/td&gt;
-&lt;td&gt;AUC&lt;/td&gt;
-&lt;td&gt;EER&lt;/td&gt;
-&lt;td&gt;AUC&lt;/td&gt;
-&lt;td&gt;EER&lt;/td&gt;
-&lt;td&gt;AUC&lt;/td&gt;
-&lt;td&gt;EER&lt;/td&gt;
-&lt;td&gt;AUC&lt;/td&gt;
-&lt;td&gt;EER&lt;/td&gt;
-&lt;td&gt;AUC&lt;/td&gt;
-&lt;td&gt;EER&lt;/td&gt;
-&lt;td&gt;AUC&lt;/td&gt;
-&lt;td&gt;EER&lt;/td&gt;
-&lt;td&gt;AUC&lt;/td&gt;
-&lt;td&gt;EER&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;MS1M-AF&lt;/td&gt;
-&lt;td&gt;Softmax&lt;/td&gt;
-&lt;td&gt;0.97&lt;/td&gt;
-&lt;td&gt;7.57&lt;/td&gt;
-&lt;td&gt;0.77&lt;/td&gt;
-&lt;td&gt;30.34&lt;/td&gt;
-&lt;td&gt;0.92&lt;/td&gt;
-&lt;td&gt;16.29&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;td&gt;3.97&lt;/td&gt;
-&lt;td&gt;0.52&lt;/td&gt;
-&lt;td&gt;48.37&lt;/td&gt;
-&lt;td&gt;0.93&lt;/td&gt;
-&lt;td&gt;13.56&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;13.22&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;MS1M-AF&lt;/td&gt;
-&lt;td&gt;ArcFace&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;td&gt;4.23&lt;/td&gt;
-&lt;td&gt;0.75&lt;/td&gt;
-&lt;td&gt;33.03&lt;/td&gt;
-&lt;td&gt;0.96&lt;/td&gt;
-&lt;td&gt;9.50&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;td&gt;2.40&lt;/td&gt;
-&lt;td&gt;0.50&lt;/td&gt;
-&lt;td&gt;49.53&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;10.70&lt;/td&gt;
-&lt;td&gt;0.96&lt;/td&gt;
-&lt;td&gt;9.07&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;MS1M-AF&lt;/td&gt;
-&lt;td&gt;Combined&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;td&gt;2.89&lt;/td&gt;
-&lt;td&gt;0.74&lt;/td&gt;
-&lt;td&gt;33.79&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;6.53&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;td&gt;2.09&lt;/td&gt;
-&lt;td&gt;0.49&lt;/td&gt;
-&lt;td&gt;50.74&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;td&gt;9.24&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;7.47&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;MS1M-AF&lt;/td&gt;
-&lt;td&gt;SphereFace&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;4.61&lt;/td&gt;
-&lt;td&gt;0.80&lt;/td&gt;
-&lt;td&gt;27.61&lt;/td&gt;
-&lt;td&gt;0.96&lt;/td&gt;
-&lt;td&gt;10.99&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;3.50&lt;/td&gt;
-&lt;td&gt;0.52&lt;/td&gt;
-&lt;td&gt;48.72&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;td&gt;10.67&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;td&gt;10.63&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;MS1M-AF&lt;/td&gt;
-&lt;td&gt;CosFace&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;td&gt;2.68&lt;/td&gt;
-&lt;td&gt;0.72&lt;/td&gt;
-&lt;td&gt;35.55&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;5.15&lt;/td&gt;
-&lt;td&gt;0.99&lt;/td&gt;
-&lt;td&gt;2.04&lt;/td&gt;
-&lt;td&gt;0.49&lt;/td&gt;
-&lt;td&gt;51.10&lt;/td&gt;
-&lt;td&gt;0.96&lt;/td&gt;
-&lt;td&gt;8.38&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;7.10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;MS1M-AF&lt;/td&gt;
-&lt;td&gt;Triplet&lt;/td&gt;
-&lt;td&gt;0.91&lt;/td&gt;
-&lt;td&gt;14.49&lt;/td&gt;
-&lt;td&gt;0.64&lt;/td&gt;
-&lt;td&gt;39.99&lt;/td&gt;
-&lt;td&gt;0.93&lt;/td&gt;
-&lt;td&gt;13.66&lt;/td&gt;
-&lt;td&gt;0.96&lt;/td&gt;
-&lt;td&gt;8.10&lt;/td&gt;
-&lt;td&gt;0.47&lt;/td&gt;
-&lt;td&gt;52.04&lt;/td&gt;
-&lt;td&gt;0.87&lt;/td&gt;
-&lt;td&gt;20.75&lt;/td&gt;
-&lt;td&gt;0.79&lt;/td&gt;
-&lt;td&gt;28.04&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WebFace12M&lt;/td&gt;
-&lt;td&gt;Softmax&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;td&gt;8.54&lt;/td&gt;
-&lt;td&gt;7.87&lt;/td&gt;
-&lt;td&gt;31.35&lt;/td&gt;
-&lt;td&gt;0.91&lt;/td&gt;
-&lt;td&gt;17.48&lt;/td&gt;
-&lt;td&gt;0.97&lt;/td&gt;
-&lt;td&gt;4.97&lt;/td&gt;
-&lt;td&gt;0.51&lt;/td&gt;
-&lt;td&gt;49.23&lt;/td&gt;
-&lt;td&gt;0.91&lt;/td&gt;
-&lt;td&gt;15.72&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;12.47&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WebFace12M&lt;/td&gt;
-&lt;td&gt;ArcFace&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;6.43&lt;/td&gt;
-&lt;td&gt;0.75&lt;/td&gt;
-&lt;td&gt;34.21&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;td&gt;10.42&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;3.84&lt;/td&gt;
-&lt;td&gt;0.50&lt;/td&gt;
-&lt;td&gt;50.28&lt;/td&gt;
-&lt;td&gt;0.93&lt;/td&gt;
-&lt;td&gt;13.43&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;td&gt;10.76&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WebFace12M&lt;/td&gt;
-&lt;td&gt;Combined&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;4.97&lt;/td&gt;
-&lt;td&gt;0.74&lt;/td&gt;
-&lt;td&gt;34.78&lt;/td&gt;
-&lt;td&gt;0.97&lt;/td&gt;
-&lt;td&gt;7.92&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;2.96&lt;/td&gt;
-&lt;td&gt;0.49&lt;/td&gt;
-&lt;td&gt;51.21&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;10.13&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;8.21&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WebFace12M&lt;/td&gt;
-&lt;td&gt;SphereFace&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;6.78&lt;/td&gt;
-&lt;td&gt;0.78&lt;/td&gt;
-&lt;td&gt;31.78&lt;/td&gt;
-&lt;td&gt;0.91&lt;/td&gt;
-&lt;td&gt;12.49&lt;/td&gt;
-&lt;td&gt;0.96&lt;/td&gt;
-&lt;td&gt;4.59&lt;/td&gt;
-&lt;td&gt;0.49&lt;/td&gt;
-&lt;td&gt;50.06&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;11.98&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;11.57&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WebFace12M&lt;/td&gt;
-&lt;td&gt;CosFace&lt;/td&gt;
-&lt;td&gt;0.98&lt;/td&gt;
-&lt;td&gt;4.98&lt;/td&gt;
-&lt;td&gt;0.72&lt;/td&gt;
-&lt;td&gt;37.89&lt;/td&gt;
-&lt;td&gt;0.97&lt;/td&gt;
-&lt;td&gt;6.83&lt;/td&gt;
-&lt;td&gt;0.97&lt;/td&gt;
-&lt;td&gt;3.07&lt;/td&gt;
-&lt;td&gt;0.48&lt;/td&gt;
-&lt;td&gt;52.45&lt;/td&gt;
-&lt;td&gt;0.95&lt;/td&gt;
-&lt;td&gt;9.48&lt;/td&gt;
-&lt;td&gt;0.97&lt;/td&gt;
-&lt;td&gt;9.23&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;WebFace12M&lt;/td&gt;
-&lt;td&gt;Triplet&lt;/td&gt;
-&lt;td&gt;0.90&lt;/td&gt;
-&lt;td&gt;16.34&lt;/td&gt;
-&lt;td&gt;0.62&lt;/td&gt;
-&lt;td&gt;41.97&lt;/td&gt;
-&lt;td&gt;0.90&lt;/td&gt;
-&lt;td&gt;15.25&lt;/td&gt;
-&lt;td&gt;0.94&lt;/td&gt;
-&lt;td&gt;9.23&lt;/td&gt;
-&lt;td&gt;0.47&lt;/td&gt;
-&lt;td&gt;54.23&lt;/td&gt;
-&lt;td&gt;0.88&lt;/td&gt;
-&lt;td&gt;22.17&lt;/td&gt;
-&lt;td&gt;0.81&lt;/td&gt;
-&lt;td&gt;30.42&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description>
-    </item>
-    
-    <item>
       <title></title>
-      <link>https://sreerajramachandran.github.io/nsf/admin/config.yml</link>
+      <link>/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/admin/config.yml</guid>
+      <guid>/admin/config.yml</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://sreerajramachandran.github.io/nsf/contact/</link>
+      <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/contact/</guid>
+      <guid>/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://sreerajramachandran.github.io/nsf/people/</link>
+      <link>/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sreerajramachandran.github.io/nsf/people/</guid>
+      <guid>/people/</guid>
       <description></description>
     </item>
     
