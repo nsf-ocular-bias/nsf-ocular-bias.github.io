@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates | NSF Project</title>
-    <link>https://nsf-ocular-bias.github.io/updates/</link>
-      <atom:link href="https://nsf-ocular-bias.github.io/updates/index.xml" rel="self" type="application/rss+xml" />
+    <link>/updates/</link>
+      <atom:link href="/updates/index.xml" rel="self" type="application/rss+xml" />
     <description>Updates</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Sun, 31 Oct 2021 11:35:52 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Wed, 01 Jun 2022 11:35:52 -0500</lastBuildDate>
     <image>
-      <url>https://nsf-ocular-bias.github.io/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png</url>
+      <url>/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png</url>
       <title>Updates</title>
-      <link>https://nsf-ocular-bias.github.io/updates/</link>
+      <link>/updates/</link>
     </image>
     
     <item>
       <title>Notredame Preliminary Results</title>
-      <link>https://nsf-ocular-bias.github.io/updates/notredame-results/</link>
-      <pubDate>Sun, 31 Oct 2021 11:35:52 -0500</pubDate>
-      <guid>https://nsf-ocular-bias.github.io/updates/notredame-results/</guid>
+      <link>/updates/notredame-results/</link>
+      <pubDate>Wed, 01 Jun 2022 11:35:52 -0500</pubDate>
+      <guid>/updates/notredame-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;h2 id=&#34;gender-classification-results&#34;&gt;Gender Classification Results&lt;/h2&gt;
 &lt;h4 id=&#39;cm_title&#39; style=&#34;text-align:center&#34;&gt;&lt;/h4&gt;
@@ -179,10 +179,496 @@ Bibliography called, but no references
     </item>
     
     <item>
+      <title>UFPR Fairness - Across Age</title>
+      <link>/updates/ufpr-age/</link>
+      <pubDate>Wed, 01 Jun 2022 11:35:52 -0500</pubDate>
+      <guid>/updates/ufpr-age/</guid>
+      <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Dataset includes 33,660 ocular samples from 1,122 subjects captured by 196 different mobile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All images were resized to224×224. the complete dataset is classified into three age-groups: namely young (18 to 39), middle-aged (40 to 59), and older adults (60 to 79).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;User recognition and gender classifier models are fine-tuned on randomly selected gender and age-group balanced subset from 780 participants. Subject-disjoint, gender and age-group-balanced subset selected from 342 subjects are used as the test set for authentication and 260 subjects (130 males and females) for gender classification.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Age classifier models are fine-tuned on balanced subset selected from 432 subjects and evaluated on subset from 132 subjects, across 6 age-groups, namely 18−29, 30−39, 40−49, 50−59, 60−69 and 70−79.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css&#34; integrity=&#34;sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm&#34; crossorigin=&#34;anonymous&#34;&gt;
+&lt;table class=&#34;table text-center&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE I: EER and FNMR at 0.01 and 0.1 FMR for user authentication using CNN models for Left (L), Right (R) ocular region,and their score-level fusion (L+R) for Young, Middle-Aged and Older adults evaluated on balanced version of UFPR ocular datasets.&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-9wq8&#34; rowspan=&#34;3&#34;&gt;CNN&lt;br&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-9wq8&#34; rowspan=&#34;3&#34;&gt;Age-Group&lt;br&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-9wq8&#34; colspan=&#34;3&#34; rowspan=&#34;2&#34;&gt;EER(%)&amp;nbsp;&amp;nbsp;&lt;/th&gt;
+    &lt;th class=&#34;tg-9wq8&#34; colspan=&#34;6&#34;&gt;FNMR(%) @ FMR&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-kyy7&#34; colspan=&#34;3&#34;&gt;0.01&lt;/th&gt;
+    &lt;th class=&#34;tg-kyy7&#34; colspan=&#34;3&#34;&gt;0.1&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L+R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L+R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L+R&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-kyy7&#34; rowspan=&#34;3&#34;&gt;ResNet-50&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Young&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.60&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.52&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.06&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;37.63&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;35.35&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;36.49&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;53.74&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;54.03&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;53.89&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Middle-Aged&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.62&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.08&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.85&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;30.76&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;25.04&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;27.9&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;52.23&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;48.55&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;50.39&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Older&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;11.01&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;11.00&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;11.01&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;15.47&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;19.34&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;17.405&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.67&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.67&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.67&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;3&#34;&gt;MobileNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Young&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7.75&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7.32&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7.54&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;33.21&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;26.11&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;29.66&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;51.61&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;48.28&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;49.95&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Middle-Aged&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.08&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.68&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.88&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;29.18&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;28.14&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;28.66&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;51.17&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;51.31&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;51.24&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Older&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.04&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.63&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.84&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;18.54&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;13.47&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;16.005&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;39.47&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;36.00&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;37.74&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-kyy7&#34; rowspan=&#34;3&#34;&gt;ShuffleNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Young&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;6.93&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;6.96&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;6.95&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;37.63&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;38.09&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;37.86&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;56.44&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;56.26&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;56.35&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Middle-Aged&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.32&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.25&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.79&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;37.38&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;46.07&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;41.73&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;55.08&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;61.10&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;58.09&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Older&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.72&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.18&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.95&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.53&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.80&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.67&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;44.93&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;53.47&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;49.20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;3&#34;&gt;EfficientNet-B0&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Young&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7.64&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.61&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.63&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;32.54&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;27.00&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;29.77&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;55.40&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;48.38&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;51.89&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Middle-Aged&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;6.95&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.03&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;7.99&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;38.07&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;26.69&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;32.38&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;49.12&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;49.31&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;49.22&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Older&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.34&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;12.08&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;10.71&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;20.80&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;23.33&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;22.065&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;39.73&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;41.74&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;40.74&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table class=&#34;table text-center&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE II: Accuracy of CNN-based Gender Classification on Left Ocular Region among Young (18 to 39 years), Middle (40
+to 59 years) and Older Adults (60 to 79 years).
+&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-amwm&#34;&gt;CNN&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Young&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Middle-Aged&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Older&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Female[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Female[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Female[%]&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;ResNet-50&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.39&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.19&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;100&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;96.67&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;99.17&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.06&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;MobileNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;99.97&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;99.9&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;100&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;99.7&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;100&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;100&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;ShuffleNet-V2-50&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.23&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;97.57&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.28&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;97.56&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;94.76&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.89&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;EfficientNet-B0&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;95.89&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;97.54&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.58&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;96.44&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;95.23&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;86.94&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table class=&#34;table text-center&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE III: Accuracy of the CNN-based Gender Classification on Right Ocular Region among Young (18 to 39 years), Middle
+(40 to 59 years) and Older Adults (60 to 79 years).&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-7btt&#34;&gt;CNN&lt;/th&gt;
+    &lt;th class=&#34;tg-7btt&#34; colspan=&#34;2&#34;&gt;Young&lt;/th&gt;
+    &lt;th class=&#34;tg-7btt&#34; colspan=&#34;2&#34;&gt;Middle-Aged&lt;/th&gt;
+    &lt;th class=&#34;tg-7btt&#34; colspan=&#34;2&#34;&gt;Older&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Female[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Female[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Female[%]&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;ResNet-50&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;97.98&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;99.61&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;97.07&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;99.78&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;92.86&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;98.61&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;MobileNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;96.84&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;92.35&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;95.86&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;98.66&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;94.76&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;97.5&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;ShuffleNet-V2-50&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;98.51&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;98.91&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;98.79&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;99.33&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;97.38&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;98.61&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;EfficientNet-B0&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;97.18&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;95.14&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;95.15&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;97.33&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;94.52&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;90&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table class=&#34;table text-center&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE IV: Exact and 1-off accuracies of Age-group Classification for Young Adults&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-baqh&#34;&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Left Ocular&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Right Ocular&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;CNN&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Exact [%] &lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;1-off [%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Exact [%] &lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;1-off [%]&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;ResNet-50&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;46.72&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;93&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;52.87&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;93.16&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;MobileNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;54.14&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;91.78&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;59.76&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;94.9&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;ShuffleNet-V2-50&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;52.47&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;91.16&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;45.16&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;85.27&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;EfficientNet-B0&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;28.225&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;53.195&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;31.6&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;62.64&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table class=&#34;table text-center&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE V: Exact and 1-off accuracies of Age-group Classification for Middle-Aged Adults.&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-baqh&#34;&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Left Ocular&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Right Ocular&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;CNN&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Exact [%] &lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;1-off [%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Exact [%] &lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;1-off [%]&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;ResNet-50&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;31.61&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;81.73&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;35.03&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;78.43&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;MobileNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;27.95&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;86.35&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;31.86&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;72.69&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;ShuffleNet-V2-50&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;28.46&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;75.2&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;24.61&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;47.98&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;EfficientNet-B0&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;20.93&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;57.86&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;19.56&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;55.73&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table class=&#34;table text-center&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE VI: Exact and 1-off accuracies of Age-group Classification for Older Adults.&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-baqh&#34;&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Left Ocular&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Right Ocular&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;CNN&lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;Exact [%] &lt;/td&gt;
+    &lt;td class=&#34;tg-7btt&#34;&gt;1-off [%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Exact [%] &lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;1-off [%]&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;ResNet-50&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;28&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;82.3&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;29.485&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;71.43&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;MobileNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;38.07&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;79.82&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;32.93&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;76.65&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;ShuffleNet-V2-50&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;36.04&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;89.65&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;18.54&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;56.85&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;EfficientNet-B0&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;4.97&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;32.3&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;4.74&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;27&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+---
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+Bibliography called, but no references
+
+
+
+</description>
+    </item>
+    
+    <item>
       <title>UFPR Preliminary Results</title>
-      <link>https://nsf-ocular-bias.github.io/updates/ufpr-results/</link>
-      <pubDate>Sun, 31 Oct 2021 11:35:52 -0500</pubDate>
-      <guid>https://nsf-ocular-bias.github.io/updates/ufpr-results/</guid>
+      <link>/updates/ufpr-results/</link>
+      <pubDate>Wed, 01 Jun 2022 11:35:52 -0500</pubDate>
+      <guid>/updates/ufpr-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;p&gt;The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and
 angles.&lt;/p&gt;

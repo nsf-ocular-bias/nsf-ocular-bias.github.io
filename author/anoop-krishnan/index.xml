@@ -2,21 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anoop Krishnan | NSF Project</title>
-    <link>https://nsf-ocular-bias.github.io/author/anoop-krishnan/</link>
-      <atom:link href="https://nsf-ocular-bias.github.io/author/anoop-krishnan/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/anoop-krishnan/</link>
+      <atom:link href="/author/anoop-krishnan/index.xml" rel="self" type="application/rss+xml" />
     <description>Anoop Krishnan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Wed, 13 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright>
     <image>
-      <url>https://nsf-ocular-bias.github.io/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png</url>
+      <url>/author/anoop-krishnan/avatar_hu5ff5eb1c5525e79deb9a5be5c054d943_55005_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Anoop Krishnan</title>
-      <link>https://nsf-ocular-bias.github.io/author/anoop-krishnan/</link>
+      <link>/author/anoop-krishnan/</link>
     </image>
+    
+  </channel>
+</rss>
+ </image>
     
     <item>
       <title>Investigating Fairness of Ocular Biometrics Among Young, Middle-Aged, and Older Adults</title>
-      <link>https://nsf-ocular-bias.github.io/publication/iccst_2021/</link>
+      <link>/publication/iccst_2021/</link>
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://nsf-ocular-bias.github.io/publication/iccst_2021/</guid>
+      <guid>/publication/iccst_2021/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
