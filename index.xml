@@ -138,7 +138,12 @@ to 59 years) and Older Adults (60 to 79 years).
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-&lt;p&gt;&lt;img src=&#34;imgs/4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Middle Aged adults slightly outperformed the other two groups in gender classification by about 1% − 2%.&lt;/li&gt;
+&lt;li&gt;Possible explanation: Stable and distinct gender cues for middle aged adults when compared to young and older adults.&lt;/li&gt;
+&lt;li&gt;Younger adult population performed the best in age classification by about 25%.&lt;/li&gt;
+&lt;li&gt;This could be due to distinct variation in the features attributed to the growing stage of the youth population over middle-aged and older adults&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;across-race&#34;&gt;Across Race&lt;/h2&gt;
 &lt;h3 id=&#34;visob--notredame--ocular-rgb&#34;&gt;VISOB + Notredame- Ocular RGB&lt;/h3&gt;
 &lt;table class=&#34;table text-center table-mod&#34;&gt;
@@ -183,8 +188,16 @@ to 59 years) and Older Adults (60 to 79 years).
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;South Asians and Caucasians overall works better.&lt;/li&gt;
+&lt;li&gt;This make sense since it contains the majority of the dataset&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;face-vs-ocular&#34;&gt;Face VS Ocular&lt;/h2&gt;
 &lt;h3 id=&#34;flickrfacehq-aging---rgb&#34;&gt;FlickrFaceHQ-Aging - RGB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Face performs better than Ocular in Gender Classification on RGB&lt;/li&gt;
+&lt;li&gt;This may be because of the low quality of the crop&lt;/li&gt;
+&lt;/ul&gt;
 &lt;table class=&#34;table text-center table-mod   &#34;&gt;
 &lt;caption class=&#34;text-center&#34;&gt;TABLE III: Gender Classification results across Face vs Periocular on FFHQ-Aging.&lt;/caption&gt;
 &lt;thead&gt;
@@ -212,6 +225,10 @@ to 59 years) and Older Adults (60 to 79 years).
 &lt;p&gt;&lt;img src=&#34;imgs/notredame_face.jpg&#34; alt=&#34;Notredame Face&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;ocular&#34;&gt;Ocular&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;imgs/across_models_notredame.png&#34; alt=&#34;Notredame Ocular&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Face performs better than Ocular in Gender Classification on NIR&lt;/li&gt;
+&lt;li&gt;This may be because of the low quality of the crop&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;subject-verification&#34;&gt;Subject Verification&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;imgs/subject_verification.png&#34; alt=&#34;Subject Verification&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;across-gender&#34;&gt;Across Gender&lt;/h2&gt;
@@ -414,6 +431,11 @@ to 59 years) and Older Adults (60 to 79 years).
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Younger adults obtained performance identical to middle-aged individuals in user verification.&lt;/li&gt;
+&lt;li&gt;Older adults’ performance differs slightly in terms of EER with only a 1% decrease, but the performance dropped at lower FMR points.&lt;/li&gt;
+&lt;li&gt;The possible reason could be due to likely inferior quality of image capture, and relatively higher inter-class similarity due to wrinkles and folds on the skin.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
