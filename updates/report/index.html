@@ -1,0 +1,1465 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sreeraj Ramachandran" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introduction Fairness evaluation studies across Biometric Modalities Fairness in Face Recognition Ocular : Motivation Research Objectives Covariates to be Studied Datasets Used Gender Classification Across Models Across Models on UFPR Periocular - RGB Across Models on Notredame Ocular - NIR Across Varying Data Balances and Gender UFPR - RGB Notredame - NIR Across Age UFPR - RGB TABLE I: Accuracy of CNN-based Gender Classification on Left Ocular Region among Young (18 to 39 years), Middle (40to 59 years) and Older Adults (60 to 79 years)." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/updates/report/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&family=Raleway:wght@300;400;500;600&family=Josefin+Slab:wght@400;500;600;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&family=Raleway:wght@300;400;500;600&family=Josefin+Slab:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.09acc20d5568412d6ca9721d3a2f5bcd.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hucd0a6b023f072b6d51b62b1505246451_193743_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hucd0a6b023f072b6d51b62b1505246451_193743_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="/updates/report/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="NSF Project" />
+  <meta property="og:url" content="/updates/report/" />
+  <meta property="og:title" content="Report | NSF Project" />
+  <meta property="og:description" content="Introduction Fairness evaluation studies across Biometric Modalities Fairness in Face Recognition Ocular : Motivation Research Objectives Covariates to be Studied Datasets Used Gender Classification Across Models Across Models on UFPR Periocular - RGB Across Models on Notredame Ocular - NIR Across Varying Data Balances and Gender UFPR - RGB Notredame - NIR Across Age UFPR - RGB TABLE I: Accuracy of CNN-based Gender Classification on Left Ocular Region among Young (18 to 39 years), Middle (40to 59 years) and Older Adults (60 to 79 years)." /><meta property="og:image" content="/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-07-01T11:35:52-05:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-07-01T11:35:52-05:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Report | NSF Project</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b4379fcc902cdb6ae442df033c091ea4" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_0x70_resize_lanczos_3.png" alt="NSF Project"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_0x70_resize_lanczos_3.png" alt="NSF Project"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>people</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/updates"><span>updates</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/event"><span>events</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contact"><span>contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Report</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 1, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+    <span class="middot-divider"></span>
+    <a href="/updates/report/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="introduction">Introduction</h1>
+<p><img src="imgs/intro.png" alt="Introduction"></p>
+<h2 id="fairness-evaluation-studies-across-biometric-modalities">Fairness evaluation studies across Biometric Modalities</h2>
+<p><img src="imgs/studies.png" alt="Studies"></p>
+<h2 id="fairness-in-face-recognition">Fairness in Face Recognition</h2>
+<p><img src="imgs/fairness.png" alt="Fairness"></p>
+<h2 id="ocular--motivation">Ocular : Motivation</h2>
+<p><img src="imgs/ocular.png" alt="Ocular Motivation"></p>
+<h2 id="research-objectives">Research Objectives</h2>
+<p><img src="imgs/research.png" alt="Research"></p>
+<h2 id="covariates-to-be-studied">Covariates to be Studied</h2>
+<p><img src="imgs/covariates.png" alt="Covariates"></p>
+<h2 id="datasets-used">Datasets Used</h2>
+<p><img src="imgs/datasets.png" alt="Datasets"></p>
+<h1 id="gender-classification">Gender Classification</h1>
+<p><img src="imgs/gender_classification.png" alt="Gender Classification"></p>
+<h2 id="across-models">Across Models</h2>
+<h3 id="across-models-on-ufpr-periocular---rgb">Across Models on UFPR Periocular - RGB</h3>
+<p><img src="imgs/across_models_ufpr.png" alt="Across Models UFPR">
+<img src="imgs/1.png" alt=""></p>
+<h3 id="across-models-on-notredame-ocular---nir">Across Models on Notredame Ocular - NIR</h3>
+<p><img src="imgs/across_models_notredame.png" alt="Across Models Notredame">
+<img src="imgs/1.1.png" alt=""></p>
+<h2 id="across-varying-data-balances-and-gender">Across Varying Data Balances and Gender</h2>
+<h3 id="ufpr---rgb">UFPR - RGB</h3>
+<p><img src="imgs/ufpr_combined.png" alt="UFPR Data Balance 1">
+<img src="imgs/2.png" alt=""></p>
+<h3 id="notredame---nir">Notredame - NIR</h3>
+<p><img src="imgs/notredame_combined.png" alt="Notredame Data Balance 1">
+<img src="imgs/3.png" alt=""></p>
+<h2 id="across-age">Across Age</h2>
+<h3 id="ufpr---rgb-1">UFPR - RGB</h3>
+<table class="table text-center table-mod">
+<caption class="text-center">TABLE I: Accuracy of CNN-based Gender Classification on Left Ocular Region among Young (18 to 39 years), Middle (40
+to 59 years) and Older Adults (60 to 79 years).
+</caption>
+<thead>
+  <tr>
+    <th class="tg-amwm">CNN</th>
+    <th class="tg-amwm" colspan="2">Young</th>
+    <th class="tg-amwm" colspan="2">Middle-Aged</th>
+    <th class="tg-amwm" colspan="2">Older</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-amwm"></td>
+    <td class="tg-amwm">Male[%]</td>
+    <td class="tg-amwm">Female[%]</td>
+    <td class="tg-amwm">Male[%]</td>
+    <td class="tg-amwm">Female[%]</td>
+    <td class="tg-amwm">Male[%]</td>
+    <td class="tg-amwm">Female[%]</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">ResNet-50</td>
+    <td class="tg-baqh">98.39</td>
+    <td class="tg-baqh">98.19</td>
+    <td class="tg-baqh">100</td>
+    <td class="tg-baqh">96.67</td>
+    <td class="tg-baqh">99.17</td>
+    <td class="tg-baqh">98.06</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">MobileNet-V2</td>
+    <td class="tg-baqh">99.97</td>
+    <td class="tg-baqh">99.9</td>
+    <td class="tg-baqh">100</td>
+    <td class="tg-baqh">99.7</td>
+    <td class="tg-baqh">100</td>
+    <td class="tg-baqh">100</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">ShuffleNet-V2-50</td>
+    <td class="tg-baqh">98.23</td>
+    <td class="tg-baqh">97.57</td>
+    <td class="tg-baqh">98.28</td>
+    <td class="tg-baqh">97.56</td>
+    <td class="tg-baqh">94.76</td>
+    <td class="tg-baqh">98.89</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">EfficientNet-B0</td>
+    <td class="tg-baqh">95.89</td>
+    <td class="tg-baqh">97.54</td>
+    <td class="tg-baqh">98.58</td>
+    <td class="tg-baqh">96.44</td>
+    <td class="tg-baqh">95.23</td>
+    <td class="tg-baqh">86.94</td>
+  </tr>
+</tbody>
+</table>
+<br>
+<p><img src="imgs/4.png" alt=""></p>
+<h2 id="across-race">Across Race</h2>
+<h3 id="visob--notredame--ocular-rgb">VISOB + Notredame- Ocular RGB</h3>
+<table class="table text-center table-mod">
+<caption class="text-center">TABLE II: Gender Classification results across race groups - Ocular Datasets.</caption>
+<thead>
+  <tr>
+    <th class="tg-amwm">Race</th>
+    <th class="tg-amwm">Male</th>
+    <th class="tg-amwm">Female</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh">White</td>
+    <td class="tg-baqh">82.42</td>
+    <td class="tg-baqh">89.92</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">South Asian</td>
+    <td class="tg-baqh">96.51</td>
+    <td class="tg-baqh">88.88</td>
+  </tr>
+  <!-- <tr>
+    <td class="tg-0lax">East Asian</td>
+    <td class="tg-0lax">26.50</td>
+    <td class="tg-0lax">72.72</td>
+  </tr> -->
+  <tr>
+    <td class="tg-0lax">Black</td>
+    <td class="tg-0lax">78.57</td>
+    <td class="tg-0lax">72.10</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Middle Eastern</td>
+    <td class="tg-0lax">71.12</td>
+    <td class="tg-0lax">93.08</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Latino</td>
+    <td class="tg-0lax">84.83</td>
+    <td class="tg-0lax">91.61</td>
+  </tr>
+</tbody>
+</table>
+<h2 id="face-vs-ocular">Face VS Ocular</h2>
+<h3 id="flickrfacehq-aging---rgb">FlickrFaceHQ-Aging - RGB</h3>
+<table class="table text-center table-mod   ">
+<caption class="text-center">TABLE III: Gender Classification results across Face vs Periocular on FFHQ-Aging.</caption>
+<thead>
+  <tr>
+    <th class="tg-amwm">Male</th>
+    <th class="tg-amwm">Female</th>
+    <th class="tg-amwm">Modality</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh">97.6</td>
+    <td class="tg-baqh">96.8</td>
+    <td class="tg-baqh">Face</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">92.5</td>
+    <td class="tg-baqh">91.6</td>
+    <td class="tg-baqh">Ocular</td>
+  </tr>
+</tbody>
+</table>
+<h3 id="notredame---nir-1">Notredame - NIR</h3>
+<h4 id="face">Face</h4>
+<p><img src="imgs/notredame_face.jpg" alt="Notredame Face"></p>
+<h4 id="ocular">Ocular</h4>
+<p><img src="imgs/across_models_notredame.png" alt="Notredame Ocular"></p>
+<h1 id="subject-verification">Subject Verification</h1>
+<p><img src="imgs/subject_verification.png" alt="Subject Verification"></p>
+<h2 id="across-gender">Across Gender</h2>
+<h3 id="ufpr---rgb-2">UFPR - RGB</h3>
+<h4 id="training-set--all">Training Set : All</h4>
+<p><img src="imgs/ufpr_subject_all_all/combined.png" alt=""></p>
+<h4 id="training-set--male">Training Set : Male</h4>
+<p><img src="imgs/ufpr_subject_male_all/combined.png" alt=""></p>
+<h4 id="training-set--female">Training Set : Female</h4>
+<p><img src="imgs/ufpr_subject_female_all/combined.png" alt=""></p>
+<h3 id="notredame---nir-2">Notredame - NIR</h3>
+<h4 id="training-set--all-1">Training Set : All</h4>
+<p><img src="imgs/notredame_subject_all_all/combined.png" alt=""></p>
+<h4 id="training-set--male-1">Training Set : Male</h4>
+<p><img src="imgs/notredame_subject_male_all/combined.png" alt=""></p>
+<h4 id="training-set--female-1">Training Set : Female</h4>
+<p><img src="imgs/notredame_subject_female_all/combined.png" alt=""></p>
+<h3 id="visob---rgb">VISOB - RGB</h3>
+<h2 id="across-varying-data-balances-and-models">Across Varying Data Balances and Models</h2>
+<h3 id="ufpr---rgb-3">UFPR - RGB</h3>
+<p><img src="imgs/ufpr_subject_balance1.png" alt="UFPR Subject 1">
+<img src="imgs/ufpr_subject_balance2.png" alt="UFPR Subject 2"></p>
+<h3 id="notredame---nir-3">Notredame - NIR</h3>
+<p><img src="imgs/notredame_subject_balance.png" alt="Notredame Subject"></p>
+<h2 id="across-age-1">Across Age</h2>
+<h3 id="ufpr---rgb-4">UFPR - RGB</h3>
+<table class="table text-center table-mod">
+<caption class="text-center">TABLE I: EER and FNMR at 0.01 and 0.1 FMR for user authentication using CNN models for Left (L), Right (R) ocular region,and their score-level fusion (L+R) for Young, Middle-Aged and Older adults evaluated on balanced version of UFPR ocular datasets.</caption>
+<thead>
+  <tr>
+    <th class="tg-9wq8" rowspan="3">CNN<br></th>
+    <th class="tg-9wq8" rowspan="3">Age-Group<br></th>
+    <th class="tg-9wq8" colspan="3" rowspan="2">EER(%)&nbsp;&nbsp;</th>
+    <th class="tg-9wq8" colspan="6">FNMR(%) @ FMR</th>
+  </tr>
+  <tr>
+    <th class="tg-kyy7" colspan="3">0.01</th>
+    <th class="tg-kyy7" colspan="3">0.1</th>
+  </tr>
+  <tr>
+    <th class="tg-c3ow">L</th>
+    <th class="tg-c3ow">R</th>
+    <th class="tg-c3ow">L+R</th>
+    <th class="tg-c3ow">L</th>
+    <th class="tg-c3ow">R</th>
+    <th class="tg-c3ow">L+R</th>
+    <th class="tg-c3ow">L</th>
+    <th class="tg-c3ow">R</th>
+    <th class="tg-c3ow">L+R</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-kyy7" rowspan="3">ResNet-50</td>
+    <td class="tg-abip">Young</td>
+    <td class="tg-abip">8.60</td>
+    <td class="tg-abip">9.52</td>
+    <td class="tg-abip">9.06</td>
+    <td class="tg-abip">37.63</td>
+    <td class="tg-abip">35.35</td>
+    <td class="tg-abip">36.49</td>
+    <td class="tg-abip">53.74</td>
+    <td class="tg-abip">54.03</td>
+    <td class="tg-abip">53.89</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Middle-Aged</td>
+    <td class="tg-c3ow">8.62</td>
+    <td class="tg-c3ow">9.08</td>
+    <td class="tg-c3ow">8.85</td>
+    <td class="tg-c3ow">30.76</td>
+    <td class="tg-c3ow">25.04</td>
+    <td class="tg-c3ow">27.9</td>
+    <td class="tg-c3ow">52.23</td>
+    <td class="tg-c3ow">48.55</td>
+    <td class="tg-c3ow">50.39</td>
+  </tr>
+  <tr>
+    <td class="tg-abip">Older</td>
+    <td class="tg-abip">11.01</td>
+    <td class="tg-abip">11.00</td>
+    <td class="tg-abip">11.01</td>
+    <td class="tg-abip">15.47</td>
+    <td class="tg-abip">19.34</td>
+    <td class="tg-abip">17.405</td>
+    <td class="tg-abip">30.67</td>
+    <td class="tg-abip">30.67</td>
+    <td class="tg-abip">30.67</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="3">MobileNet-V2</td>
+    <td class="tg-c3ow">Young</td>
+    <td class="tg-c3ow">7.75</td>
+    <td class="tg-c3ow">7.32</td>
+    <td class="tg-c3ow">7.54</td>
+    <td class="tg-c3ow">33.21</td>
+    <td class="tg-c3ow">26.11</td>
+    <td class="tg-c3ow">29.66</td>
+    <td class="tg-c3ow">51.61</td>
+    <td class="tg-c3ow">48.28</td>
+    <td class="tg-c3ow">49.95</td>
+  </tr>
+  <tr>
+    <td class="tg-abip">Middle-Aged</td>
+    <td class="tg-abip">9.08</td>
+    <td class="tg-abip">8.68</td>
+    <td class="tg-abip">8.88</td>
+    <td class="tg-abip">29.18</td>
+    <td class="tg-abip">28.14</td>
+    <td class="tg-abip">28.66</td>
+    <td class="tg-abip">51.17</td>
+    <td class="tg-abip">51.31</td>
+    <td class="tg-abip">51.24</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Older</td>
+    <td class="tg-c3ow">8.04</td>
+    <td class="tg-c3ow">9.63</td>
+    <td class="tg-c3ow">8.84</td>
+    <td class="tg-c3ow">18.54</td>
+    <td class="tg-c3ow">13.47</td>
+    <td class="tg-c3ow">16.005</td>
+    <td class="tg-c3ow">39.47</td>
+    <td class="tg-c3ow">36.00</td>
+    <td class="tg-c3ow">37.74</td>
+  </tr>
+  <tr>
+    <td class="tg-kyy7" rowspan="3">ShuffleNet-V2</td>
+    <td class="tg-abip">Young</td>
+    <td class="tg-abip">6.93</td>
+    <td class="tg-abip">6.96</td>
+    <td class="tg-abip">6.95</td>
+    <td class="tg-abip">37.63</td>
+    <td class="tg-abip">38.09</td>
+    <td class="tg-abip">37.86</td>
+    <td class="tg-abip">56.44</td>
+    <td class="tg-abip">56.26</td>
+    <td class="tg-abip">56.35</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Middle-Aged</td>
+    <td class="tg-c3ow">8.32</td>
+    <td class="tg-c3ow">9.25</td>
+    <td class="tg-c3ow">8.79</td>
+    <td class="tg-c3ow">37.38</td>
+    <td class="tg-c3ow">46.07</td>
+    <td class="tg-c3ow">41.73</td>
+    <td class="tg-c3ow">55.08</td>
+    <td class="tg-c3ow">61.10</td>
+    <td class="tg-c3ow">58.09</td>
+  </tr>
+  <tr>
+    <td class="tg-abip">Older</td>
+    <td class="tg-abip">9.72</td>
+    <td class="tg-abip">8.18</td>
+    <td class="tg-abip">8.95</td>
+    <td class="tg-abip">30.53</td>
+    <td class="tg-abip">30.80</td>
+    <td class="tg-abip">30.67</td>
+    <td class="tg-abip">44.93</td>
+    <td class="tg-abip">53.47</td>
+    <td class="tg-abip">49.20</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="3">EfficientNet-B0</td>
+    <td class="tg-c3ow">Young</td>
+    <td class="tg-c3ow">7.64</td>
+    <td class="tg-c3ow">9.61</td>
+    <td class="tg-c3ow">8.63</td>
+    <td class="tg-c3ow">32.54</td>
+    <td class="tg-c3ow">27.00</td>
+    <td class="tg-c3ow">29.77</td>
+    <td class="tg-c3ow">55.40</td>
+    <td class="tg-c3ow">48.38</td>
+    <td class="tg-c3ow">51.89</td>
+  </tr>
+  <tr>
+    <td class="tg-abip">Middle-Aged</td>
+    <td class="tg-abip">6.95</td>
+    <td class="tg-abip">9.03</td>
+    <td class="tg-abip">7.99</td>
+    <td class="tg-abip">38.07</td>
+    <td class="tg-abip">26.69</td>
+    <td class="tg-abip">32.38</td>
+    <td class="tg-abip">49.12</td>
+    <td class="tg-abip">49.31</td>
+    <td class="tg-abip">49.22</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Older</td>
+    <td class="tg-c3ow">9.34</td>
+    <td class="tg-c3ow">12.08</td>
+    <td class="tg-c3ow">10.71</td>
+    <td class="tg-c3ow">20.80</td>
+    <td class="tg-c3ow">23.33</td>
+    <td class="tg-c3ow">22.065</td>
+    <td class="tg-c3ow">39.73</td>
+    <td class="tg-c3ow">41.74</td>
+    <td class="tg-c3ow">40.74</td>
+  </tr>
+</tbody>
+</table>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/updates/report/&amp;text=Report" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/updates/report/&amp;t=Report" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Report&amp;body=/updates/report/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/updates/report/&amp;title=Report" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Report%20/updates/report/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/updates/report/&amp;title=Report" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/sreeraj-ramachandran/"><img class="avatar mr-3 avatar-circle" src="/author/sreeraj-ramachandran/avatar_hu6b2200fa1a956023790260467516b6c4_13472_270x270_fill_q75_lanczos_center.jpg" alt="Sreeraj Ramachandran"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/sreeraj-ramachandran/">Sreeraj Ramachandran</a></h5>
+      <h6 class="card-subtitle">Graduate Research Assistant</h6>
+      <p class="card-text">My research interests include Computer Vision, Biometrics, Bias AI, GANs and adversarial Attacks</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:sxramachandran2@shockers.wichita.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=1qlcdBgAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/sreerajr000" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  <section id="comments">
+    
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "nsf-ocular-bias" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+      <script id="dsq-count-scr" src="https://nsf-ocular-bias.disqus.com/count.js" async></script>
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.4bba0826db6409c865d2e7b99039d6d0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

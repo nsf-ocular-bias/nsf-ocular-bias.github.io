@@ -5,7 +5,7 @@
     <link>/updates/</link>
       <atom:link href="/updates/index.xml" rel="self" type="application/rss+xml" />
     <description>Updates</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Wed, 01 Jun 2022 11:35:52 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 VCBSL, Wichita State University</copyright><lastBuildDate>Fri, 01 Jul 2022 11:35:52 -0500</lastBuildDate>
     <image>
       <url>/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png</url>
       <title>Updates</title>
@@ -13,9 +13,386 @@
     </image>
     
     <item>
+      <title>Report</title>
+      <link>/updates/report/</link>
+      <pubDate>Fri, 01 Jul 2022 11:35:52 -0500</pubDate>
+      <guid>/updates/report/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/intro.png&#34; alt=&#34;Introduction&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fairness-evaluation-studies-across-biometric-modalities&#34;&gt;Fairness evaluation studies across Biometric Modalities&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/studies.png&#34; alt=&#34;Studies&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fairness-in-face-recognition&#34;&gt;Fairness in Face Recognition&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/fairness.png&#34; alt=&#34;Fairness&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ocular--motivation&#34;&gt;Ocular : Motivation&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/ocular.png&#34; alt=&#34;Ocular Motivation&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;research-objectives&#34;&gt;Research Objectives&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/research.png&#34; alt=&#34;Research&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;covariates-to-be-studied&#34;&gt;Covariates to be Studied&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/covariates.png&#34; alt=&#34;Covariates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;datasets-used&#34;&gt;Datasets Used&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/datasets.png&#34; alt=&#34;Datasets&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;gender-classification&#34;&gt;Gender Classification&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/gender_classification.png&#34; alt=&#34;Gender Classification&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-models&#34;&gt;Across Models&lt;/h2&gt;
+&lt;h3 id=&#34;across-models-on-ufpr-periocular---rgb&#34;&gt;Across Models on UFPR Periocular - RGB&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/across_models_ufpr.png&#34; alt=&#34;Across Models UFPR&#34;&gt;
+&lt;img src=&#34;imgs/1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;across-models-on-notredame-ocular---nir&#34;&gt;Across Models on Notredame Ocular - NIR&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/across_models_notredame.png&#34; alt=&#34;Across Models Notredame&#34;&gt;
+&lt;img src=&#34;imgs/1.1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-varying-data-balances-and-gender&#34;&gt;Across Varying Data Balances and Gender&lt;/h2&gt;
+&lt;h3 id=&#34;ufpr---rgb&#34;&gt;UFPR - RGB&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/ufpr_combined.png&#34; alt=&#34;UFPR Data Balance 1&#34;&gt;
+&lt;img src=&#34;imgs/2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;notredame---nir&#34;&gt;Notredame - NIR&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/notredame_combined.png&#34; alt=&#34;Notredame Data Balance 1&#34;&gt;
+&lt;img src=&#34;imgs/3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-age&#34;&gt;Across Age&lt;/h2&gt;
+&lt;h3 id=&#34;ufpr---rgb-1&#34;&gt;UFPR - RGB&lt;/h3&gt;
+&lt;table class=&#34;table text-center table-mod&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE I: Accuracy of CNN-based Gender Classification on Left Ocular Region among Young (18 to 39 years), Middle (40
+to 59 years) and Older Adults (60 to 79 years).
+&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-amwm&#34;&gt;CNN&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Young&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Middle-Aged&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34; colspan=&#34;2&#34;&gt;Older&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Female[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Female[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Male[%]&lt;/td&gt;
+    &lt;td class=&#34;tg-amwm&#34;&gt;Female[%]&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;ResNet-50&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.39&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.19&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;100&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;96.67&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;99.17&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.06&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;MobileNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;99.97&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;99.9&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;100&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;99.7&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;100&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;100&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;ShuffleNet-V2-50&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.23&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;97.57&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.28&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;97.56&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;94.76&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.89&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;EfficientNet-B0&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;95.89&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;97.54&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;98.58&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;96.44&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;95.23&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;86.94&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-race&#34;&gt;Across Race&lt;/h2&gt;
+&lt;h3 id=&#34;visob--notredame--ocular-rgb&#34;&gt;VISOB + Notredame- Ocular RGB&lt;/h3&gt;
+&lt;table class=&#34;table text-center table-mod&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE II: Gender Classification results across race groups - Ocular Datasets.&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-amwm&#34;&gt;Race&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34;&gt;Male&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34;&gt;Female&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;White&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;82.42&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;89.92&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;South Asian&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;96.51&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;88.88&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;!-- &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;East Asian&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;26.50&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;72.72&lt;/td&gt;
+  &lt;/tr&gt; --&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;Black&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;78.57&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;72.10&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;Middle Eastern&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;71.12&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;93.08&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;Latino&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;84.83&lt;/td&gt;
+    &lt;td class=&#34;tg-0lax&#34;&gt;91.61&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;face-vs-ocular&#34;&gt;Face VS Ocular&lt;/h2&gt;
+&lt;h3 id=&#34;flickrfacehq-aging---rgb&#34;&gt;FlickrFaceHQ-Aging - RGB&lt;/h3&gt;
+&lt;table class=&#34;table text-center table-mod   &#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE III: Gender Classification results across Face vs Periocular on FFHQ-Aging.&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-amwm&#34;&gt;Male&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34;&gt;Female&lt;/th&gt;
+    &lt;th class=&#34;tg-amwm&#34;&gt;Modality&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;97.6&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;96.8&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;Face&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;92.5&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;91.6&lt;/td&gt;
+    &lt;td class=&#34;tg-baqh&#34;&gt;Ocular&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;notredame---nir-1&#34;&gt;Notredame - NIR&lt;/h3&gt;
+&lt;h4 id=&#34;face&#34;&gt;Face&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/notredame_face.jpg&#34; alt=&#34;Notredame Face&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ocular&#34;&gt;Ocular&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/across_models_notredame.png&#34; alt=&#34;Notredame Ocular&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;subject-verification&#34;&gt;Subject Verification&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/subject_verification.png&#34; alt=&#34;Subject Verification&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-gender&#34;&gt;Across Gender&lt;/h2&gt;
+&lt;h3 id=&#34;ufpr---rgb-2&#34;&gt;UFPR - RGB&lt;/h3&gt;
+&lt;h4 id=&#34;training-set--all&#34;&gt;Training Set : All&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/ufpr_subject_all_all/combined.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;training-set--male&#34;&gt;Training Set : Male&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/ufpr_subject_male_all/combined.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;training-set--female&#34;&gt;Training Set : Female&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/ufpr_subject_female_all/combined.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;notredame---nir-2&#34;&gt;Notredame - NIR&lt;/h3&gt;
+&lt;h4 id=&#34;training-set--all-1&#34;&gt;Training Set : All&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/notredame_subject_all_all/combined.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;training-set--male-1&#34;&gt;Training Set : Male&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/notredame_subject_male_all/combined.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;training-set--female-1&#34;&gt;Training Set : Female&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/notredame_subject_female_all/combined.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;visob---rgb&#34;&gt;VISOB - RGB&lt;/h3&gt;
+&lt;h2 id=&#34;across-varying-data-balances-and-models&#34;&gt;Across Varying Data Balances and Models&lt;/h2&gt;
+&lt;h3 id=&#34;ufpr---rgb-3&#34;&gt;UFPR - RGB&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/ufpr_subject_balance1.png&#34; alt=&#34;UFPR Subject 1&#34;&gt;
+&lt;img src=&#34;imgs/ufpr_subject_balance2.png&#34; alt=&#34;UFPR Subject 2&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;notredame---nir-3&#34;&gt;Notredame - NIR&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/notredame_subject_balance.png&#34; alt=&#34;Notredame Subject&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-age-1&#34;&gt;Across Age&lt;/h2&gt;
+&lt;h3 id=&#34;ufpr---rgb-4&#34;&gt;UFPR - RGB&lt;/h3&gt;
+&lt;table class=&#34;table text-center table-mod&#34;&gt;
+&lt;caption class=&#34;text-center&#34;&gt;TABLE I: EER and FNMR at 0.01 and 0.1 FMR for user authentication using CNN models for Left (L), Right (R) ocular region,and their score-level fusion (L+R) for Young, Middle-Aged and Older adults evaluated on balanced version of UFPR ocular datasets.&lt;/caption&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-9wq8&#34; rowspan=&#34;3&#34;&gt;CNN&lt;br&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-9wq8&#34; rowspan=&#34;3&#34;&gt;Age-Group&lt;br&gt;&lt;/th&gt;
+    &lt;th class=&#34;tg-9wq8&#34; colspan=&#34;3&#34; rowspan=&#34;2&#34;&gt;EER(%)&amp;nbsp;&amp;nbsp;&lt;/th&gt;
+    &lt;th class=&#34;tg-9wq8&#34; colspan=&#34;6&#34;&gt;FNMR(%) @ FMR&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-kyy7&#34; colspan=&#34;3&#34;&gt;0.01&lt;/th&gt;
+    &lt;th class=&#34;tg-kyy7&#34; colspan=&#34;3&#34;&gt;0.1&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L+R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L+R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;R&lt;/th&gt;
+    &lt;th class=&#34;tg-c3ow&#34;&gt;L+R&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-kyy7&#34; rowspan=&#34;3&#34;&gt;ResNet-50&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Young&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.60&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.52&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.06&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;37.63&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;35.35&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;36.49&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;53.74&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;54.03&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;53.89&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Middle-Aged&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.62&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.08&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.85&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;30.76&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;25.04&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;27.9&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;52.23&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;48.55&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;50.39&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Older&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;11.01&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;11.00&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;11.01&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;15.47&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;19.34&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;17.405&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.67&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.67&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.67&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;3&#34;&gt;MobileNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Young&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7.75&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7.32&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7.54&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;33.21&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;26.11&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;29.66&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;51.61&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;48.28&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;49.95&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Middle-Aged&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.08&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.68&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.88&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;29.18&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;28.14&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;28.66&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;51.17&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;51.31&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;51.24&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Older&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.04&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.63&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.84&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;18.54&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;13.47&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;16.005&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;39.47&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;36.00&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;37.74&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-kyy7&#34; rowspan=&#34;3&#34;&gt;ShuffleNet-V2&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Young&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;6.93&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;6.96&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;6.95&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;37.63&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;38.09&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;37.86&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;56.44&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;56.26&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;56.35&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Middle-Aged&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.32&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.25&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.79&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;37.38&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;46.07&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;41.73&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;55.08&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;61.10&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;58.09&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Older&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.72&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.18&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;8.95&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.53&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.80&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;30.67&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;44.93&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;53.47&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;49.20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;3&#34;&gt;EfficientNet-B0&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Young&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;7.64&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.61&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;8.63&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;32.54&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;27.00&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;29.77&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;55.40&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;48.38&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;51.89&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;Middle-Aged&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;6.95&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;9.03&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;7.99&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;38.07&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;26.69&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;32.38&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;49.12&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;49.31&lt;/td&gt;
+    &lt;td class=&#34;tg-abip&#34;&gt;49.22&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;Older&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;9.34&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;12.08&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;10.71&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;20.80&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;23.33&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;22.065&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;39.73&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;41.74&lt;/td&gt;
+    &lt;td class=&#34;tg-c3ow&#34;&gt;40.74&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Miscellaneous Results</title>
       <link>/updates/misc-results/</link>
-      <pubDate>Wed, 01 Jun 2022 11:35:52 -0500</pubDate>
+      <pubDate>Mon, 02 May 2022 11:35:52 -0500</pubDate>
       <guid>/updates/misc-results/</guid>
       <description>&lt;h3 id=&#34;gender-classification-across-race-on-ocular&#34;&gt;Gender Classification Across Race on Ocular&lt;/h3&gt;
 &lt;ul&gt;
@@ -42,11 +419,11 @@
     &lt;td class=&#34;tg-baqh&#34;&gt;96.51&lt;/td&gt;
     &lt;td class=&#34;tg-baqh&#34;&gt;88.88&lt;/td&gt;
   &lt;/tr&gt;
-  &lt;tr&gt;
+  &lt;!-- &lt;tr&gt;
     &lt;td class=&#34;tg-0lax&#34;&gt;East Asian&lt;/td&gt;
     &lt;td class=&#34;tg-0lax&#34;&gt;26.50&lt;/td&gt;
     &lt;td class=&#34;tg-0lax&#34;&gt;72.72&lt;/td&gt;
-  &lt;/tr&gt;
+  &lt;/tr&gt; --&gt;
   &lt;tr&gt;
     &lt;td class=&#34;tg-0lax&#34;&gt;Black&lt;/td&gt;
     &lt;td class=&#34;tg-0lax&#34;&gt;78.57&lt;/td&gt;
@@ -97,7 +474,7 @@
     <item>
       <title>Notredame Preliminary Results</title>
       <link>/updates/notredame-results/</link>
-      <pubDate>Wed, 01 Jun 2022 11:35:52 -0500</pubDate>
+      <pubDate>Sat, 26 Mar 2022 11:35:52 -0500</pubDate>
       <guid>/updates/notredame-results/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;h2 id=&#34;gender-classification-results&#34;&gt;Gender Classification Results&lt;/h2&gt;
@@ -261,9 +638,184 @@ Bibliography called, but no references
     </item>
     
     <item>
+      <title>UFPR Preliminary Results</title>
+      <link>/updates/ufpr-results/</link>
+      <pubDate>Tue, 22 Feb 2022 11:35:52 -0500</pubDate>
+      <guid>/updates/ufpr-results/</guid>
+      <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and
+angles.&lt;/p&gt;
+&lt;p&gt;The gender distribution of the subjects is $(53,65\%)$ male and
+$(46,35\%)$ female, and approximately $66\%$ of the subjects are
+under $31$ years old. In total, the dataset has images captured
+from $196$ different mobile devices – the five most used device
+models were: Apple iPhone 8 $(4.1\%)$, Apple iPhone 9 $(3.1\%)$,
+Xiaomi Mi 8 Lite $(3.0\%)$, Apple iPhone 7 $(3.0\%)$, and Samsung
+Galaxy J7 Prime $(2.7\%)$.&lt;/p&gt;
+&lt;h2 id=&#34;gender-classification-results&#34;&gt;Gender Classification Results&lt;/h2&gt;
+&lt;h4 id=&#39;cm_title&#39; style=&#34;text-align:center&#34;&gt;&lt;/h4&gt;
+&lt;div class=&#39;cm_container&#39;&gt;
+  &lt;div id=&#34;cm_btns_model&#34; class=&#34;btn-group-vertical cm_btns_model&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;cm&#34;&gt;
+    &lt;div id=&#34;cm_btns_tm&#34; class=&#34;btn-group cm_btns_tm&#34;&gt;
+      &lt;input id=&#34;cm_btns_tm_5050&#34; type=&#34;button&#34; value=&#34;F50M50&#34; class=&#34;btn btn-light active&#34;&gt;&lt;/input&gt;
+      &lt;input id=&#34;cm_btns_tm_2575&#34; type=&#34;button&#34; value=&#34;F25M75&#34; class=&#34;btn btn-light&#34;&gt;&lt;/input&gt;
+      &lt;input id=&#34;cm_btns_tm_7525&#34; type=&#34;button&#34; value=&#34;F75M25&#34; class=&#34;btn btn-light&#34;&gt;&lt;/input&gt;
+    &lt;/div&gt;
+    &lt;div id=&#39;cm&#39;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;cm_container&#34;&gt;
+  &lt;div id=&#34;gc_btns_model&#34; class=&#34;btn-group-vertical cm_btns_model&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;cm&#34;&gt;
+    &lt;div id=&#34;gc_acc&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;subject-verification-results&#34;&gt;Subject Verification Results&lt;/h2&gt;
+&lt;div class=&#34;cm_container&#34;&gt;
+  &lt;div id=&#34;tb_btns_model&#34; class=&#34;btn-group-vertical cm_btns_model&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;cm&#34;&gt;
+    &lt;div id=&#34;sv_eer&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tb_btns_tm&#34; class=&#34;btn-group cm_btns_tm cm_container&#34;&gt;
+    &lt;input id=&#34;tb_btns_eer&#34; type=&#34;button&#34; value=&#34;EER&#34; class=&#34;btn btn-light active&#34;&gt;&lt;/input&gt;
+    &lt;input id=&#34;tb_btns_auc&#34; type=&#34;button&#34; value=&#34;AUC&#34; class=&#34;btn btn-light&#34;&gt;&lt;/input&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;subject-verification-all-results-table&#34;&gt;Subject Verification All Results Table&lt;/h3&gt;
+&lt;div id=&#34;sv_table&#34; class=&#34;cm_container&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;visualizations&#34;&gt;Visualizations&lt;/h2&gt;
+&lt;h3 id=&#34;gradcam&#34;&gt;GradCAM&lt;/h3&gt;
+&lt;div class=&#34;gallery_container&#34;&gt;
+  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
+    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;GradCAM&lt;/h4&gt;
+    &lt;input id=&#34;viz_gradcam_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;viz_container&#34;&gt;
+    &lt;div id=&#34;viz_gradcam_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_gradcam&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_gradcam_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;viz_gradcam_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;guided-gradcam&#34;&gt;Guided GradCAM&lt;/h3&gt;
+&lt;div class=&#34;gallery_container&#34;&gt;
+  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
+    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Guided GradCAM&lt;/h4&gt;
+    &lt;input id=&#34;viz_guided_gradcam_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;viz_container&#34;&gt;
+    &lt;div id=&#34;viz_guided_gradcam_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_guided_gradcam&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_guided_gradcam_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;viz_guided_gradcam_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;occlusion-sensitivity&#34;&gt;Occlusion Sensitivity&lt;/h3&gt;
+&lt;div class=&#34;gallery_container&#34;&gt;
+  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
+    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Occlusion Sensitivity&lt;/h4&gt;
+    &lt;input id=&#34;viz_occlusion_sensitivity_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;viz_container&#34;&gt;
+    &lt;div id=&#34;viz_occlusion_sensitivity_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_occlusion_sensitivity&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_occlusion_sensitivity_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;viz_occlusion_sensitivity_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;vanilla-gradients&#34;&gt;Vanilla Gradients&lt;/h3&gt;
+&lt;div class=&#34;gallery_container&#34;&gt;
+  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
+    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Vanilla Gradients&lt;/h4&gt;
+    &lt;input id=&#34;viz_vanilla_gradients_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;viz_container&#34;&gt;
+    &lt;div id=&#34;viz_vanilla_gradients_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_vanilla_gradients&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_vanilla_gradients_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;viz_vanilla_gradients_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;integrated-gradients&#34;&gt;Integrated Gradients&lt;/h3&gt;
+&lt;div class=&#34;gallery_container&#34;&gt;
+  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
+    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Integrated Gradients&lt;/h4&gt;
+    &lt;input id=&#34;viz_integrated_gradients_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;viz_container&#34;&gt;
+    &lt;div id=&#34;viz_integrated_gradients_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_integrated_gradients&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_integrated_gradients_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;viz_integrated_gradients_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;smoothgrad&#34;&gt;SmoothGrad&lt;/h3&gt;
+&lt;div class=&#34;gallery_container&#34;&gt;
+  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
+    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;SmoothGrad&lt;/h4&gt;
+    &lt;input id=&#34;viz_smoothgrad_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;viz_container&#34;&gt;
+    &lt;div id=&#34;viz_smoothgrad_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_smoothgrad&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_smoothgrad_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;viz_smoothgrad_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;gradients-x-input&#34;&gt;Gradients x Input&lt;/h3&gt;
+&lt;div class=&#34;gallery_container&#34;&gt;
+  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
+    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Gradients x Input&lt;/h4&gt;
+    &lt;input id=&#34;viz_gradients_input_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;viz_container&#34;&gt;
+    &lt;div id=&#34;viz_gradients_input_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_gradients_input&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;viz_gradients_input_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;viz_gradients_input_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;modal fade bd-example-modal-xl&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-labelledby=&#34;myExtraLargeModalLabel&#34; aria-hidden=&#34;true&#34;&gt;
+  &lt;div class=&#34;modal-dialog modal-lg&#34;&gt;
+    &lt;div class=&#34;modal-content&#34;&gt;
+      &lt;div class=&#34;modal-header&#34;&gt;
+        &lt;h5 class=&#34;modal-title&#34;&gt;Averaged Map&lt;/h5&gt;
+        &lt;button type=&#34;button&#34; class=&#34;close&#34; data-dismiss=&#34;modal&#34; aria-label=&#34;Close&#34;&gt;
+          &lt;span aria-hidden=&#34;true&#34;&gt;&amp;times;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;img id=&#34;viz_avg_modal&#34; src=&#34;&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+Bibliography called, but no references
+
+
+
+&lt;script type=&#34;module&#34; src=&#34;ufpr.js&#34;&gt;&lt;/script&gt;</description>
+    </item>
+    
+    <item>
       <title>UFPR Fairness - Across Age</title>
       <link>/updates/ufpr-age/</link>
-      <pubDate>Wed, 01 Jun 2022 11:35:52 -0500</pubDate>
+      <pubDate>Wed, 12 Jan 2022 11:35:52 -0500</pubDate>
       <guid>/updates/ufpr-age/</guid>
       <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;ul&gt;
@@ -743,181 +1295,6 @@ Bibliography called, but no references
 
 
 </description>
-    </item>
-    
-    <item>
-      <title>UFPR Preliminary Results</title>
-      <link>/updates/ufpr-results/</link>
-      <pubDate>Wed, 01 Jun 2022 11:35:52 -0500</pubDate>
-      <guid>/updates/ufpr-results/</guid>
-      <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
-&lt;p&gt;The UFPR-Periocular dataset was created to obtain images in unconstrained scenarios that contain realistic noises caused by occlusion, blur, and variations in lighting, distance, and
-angles.&lt;/p&gt;
-&lt;p&gt;The gender distribution of the subjects is $(53,65\%)$ male and
-$(46,35\%)$ female, and approximately $66\%$ of the subjects are
-under $31$ years old. In total, the dataset has images captured
-from $196$ different mobile devices – the five most used device
-models were: Apple iPhone 8 $(4.1\%)$, Apple iPhone 9 $(3.1\%)$,
-Xiaomi Mi 8 Lite $(3.0\%)$, Apple iPhone 7 $(3.0\%)$, and Samsung
-Galaxy J7 Prime $(2.7\%)$.&lt;/p&gt;
-&lt;h2 id=&#34;gender-classification-results&#34;&gt;Gender Classification Results&lt;/h2&gt;
-&lt;h4 id=&#39;cm_title&#39; style=&#34;text-align:center&#34;&gt;&lt;/h4&gt;
-&lt;div class=&#39;cm_container&#39;&gt;
-  &lt;div id=&#34;cm_btns_model&#34; class=&#34;btn-group-vertical cm_btns_model&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;cm&#34;&gt;
-    &lt;div id=&#34;cm_btns_tm&#34; class=&#34;btn-group cm_btns_tm&#34;&gt;
-      &lt;input id=&#34;cm_btns_tm_5050&#34; type=&#34;button&#34; value=&#34;F50M50&#34; class=&#34;btn btn-light active&#34;&gt;&lt;/input&gt;
-      &lt;input id=&#34;cm_btns_tm_2575&#34; type=&#34;button&#34; value=&#34;F25M75&#34; class=&#34;btn btn-light&#34;&gt;&lt;/input&gt;
-      &lt;input id=&#34;cm_btns_tm_7525&#34; type=&#34;button&#34; value=&#34;F75M25&#34; class=&#34;btn btn-light&#34;&gt;&lt;/input&gt;
-    &lt;/div&gt;
-    &lt;div id=&#39;cm&#39;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;cm_container&#34;&gt;
-  &lt;div id=&#34;gc_btns_model&#34; class=&#34;btn-group-vertical cm_btns_model&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;cm&#34;&gt;
-    &lt;div id=&#34;gc_acc&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;subject-verification-results&#34;&gt;Subject Verification Results&lt;/h2&gt;
-&lt;div class=&#34;cm_container&#34;&gt;
-  &lt;div id=&#34;tb_btns_model&#34; class=&#34;btn-group-vertical cm_btns_model&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;cm&#34;&gt;
-    &lt;div id=&#34;sv_eer&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;tb_btns_tm&#34; class=&#34;btn-group cm_btns_tm cm_container&#34;&gt;
-    &lt;input id=&#34;tb_btns_eer&#34; type=&#34;button&#34; value=&#34;EER&#34; class=&#34;btn btn-light active&#34;&gt;&lt;/input&gt;
-    &lt;input id=&#34;tb_btns_auc&#34; type=&#34;button&#34; value=&#34;AUC&#34; class=&#34;btn btn-light&#34;&gt;&lt;/input&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;subject-verification-all-results-table&#34;&gt;Subject Verification All Results Table&lt;/h3&gt;
-&lt;div id=&#34;sv_table&#34; class=&#34;cm_container&#34;&gt;&lt;/div&gt;
-&lt;h2 id=&#34;visualizations&#34;&gt;Visualizations&lt;/h2&gt;
-&lt;h3 id=&#34;gradcam&#34;&gt;GradCAM&lt;/h3&gt;
-&lt;div class=&#34;gallery_container&#34;&gt;
-  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
-    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;GradCAM&lt;/h4&gt;
-    &lt;input id=&#34;viz_gradcam_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;viz_container&#34;&gt;
-    &lt;div id=&#34;viz_gradcam_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_gradcam&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_gradcam_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;viz_gradcam_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;guided-gradcam&#34;&gt;Guided GradCAM&lt;/h3&gt;
-&lt;div class=&#34;gallery_container&#34;&gt;
-  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
-    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Guided GradCAM&lt;/h4&gt;
-    &lt;input id=&#34;viz_guided_gradcam_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;viz_container&#34;&gt;
-    &lt;div id=&#34;viz_guided_gradcam_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_guided_gradcam&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_guided_gradcam_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;viz_guided_gradcam_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;occlusion-sensitivity&#34;&gt;Occlusion Sensitivity&lt;/h3&gt;
-&lt;div class=&#34;gallery_container&#34;&gt;
-  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
-    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Occlusion Sensitivity&lt;/h4&gt;
-    &lt;input id=&#34;viz_occlusion_sensitivity_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;viz_container&#34;&gt;
-    &lt;div id=&#34;viz_occlusion_sensitivity_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_occlusion_sensitivity&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_occlusion_sensitivity_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;viz_occlusion_sensitivity_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;vanilla-gradients&#34;&gt;Vanilla Gradients&lt;/h3&gt;
-&lt;div class=&#34;gallery_container&#34;&gt;
-  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
-    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Vanilla Gradients&lt;/h4&gt;
-    &lt;input id=&#34;viz_vanilla_gradients_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;viz_container&#34;&gt;
-    &lt;div id=&#34;viz_vanilla_gradients_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_vanilla_gradients&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_vanilla_gradients_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;viz_vanilla_gradients_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;integrated-gradients&#34;&gt;Integrated Gradients&lt;/h3&gt;
-&lt;div class=&#34;gallery_container&#34;&gt;
-  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
-    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Integrated Gradients&lt;/h4&gt;
-    &lt;input id=&#34;viz_integrated_gradients_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;viz_container&#34;&gt;
-    &lt;div id=&#34;viz_integrated_gradients_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_integrated_gradients&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_integrated_gradients_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;viz_integrated_gradients_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;smoothgrad&#34;&gt;SmoothGrad&lt;/h3&gt;
-&lt;div class=&#34;gallery_container&#34;&gt;
-  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
-    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;SmoothGrad&lt;/h4&gt;
-    &lt;input id=&#34;viz_smoothgrad_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;viz_container&#34;&gt;
-    &lt;div id=&#34;viz_smoothgrad_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_smoothgrad&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_smoothgrad_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;viz_smoothgrad_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;gradients-x-input&#34;&gt;Gradients x Input&lt;/h3&gt;
-&lt;div class=&#34;gallery_container&#34;&gt;
-  &lt;div style=&#34;display:flex;align-items:baseline&#34;&gt;
-    &lt;h4 style=&#34;text-align:center;width:100%&#34;&gt;Gradients x Input&lt;/h4&gt;
-    &lt;input id=&#34;viz_gradients_input_avgbtn&#34; type=&#34;button&#34; value=&#34;Show Averaged&#34; class=&#34;btn btn-info&#34; data-toggle=&#34;modal&#34; data-target=&#34;.bd-example-modal-xl&#34;&gt;&lt;/input&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;viz_container&#34;&gt;
-    &lt;div id=&#34;viz_gradients_input_models&#34; class=&#34;viz_btns btn-group-vertical&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_gradients_input&#34; class=&#34;gallery&#34;&gt;&lt;/div&gt;
-    &lt;div id=&#34;viz_gradients_input_class&#34; class=&#34;viz_btns btn-group-vertical viz_class&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;viz_gradients_input_opts&#34; class=&#34;viz_opts btn-group&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;modal fade bd-example-modal-xl&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-labelledby=&#34;myExtraLargeModalLabel&#34; aria-hidden=&#34;true&#34;&gt;
-  &lt;div class=&#34;modal-dialog modal-lg&#34;&gt;
-    &lt;div class=&#34;modal-content&#34;&gt;
-      &lt;div class=&#34;modal-header&#34;&gt;
-        &lt;h5 class=&#34;modal-title&#34;&gt;Averaged Map&lt;/h5&gt;
-        &lt;button type=&#34;button&#34; class=&#34;close&#34; data-dismiss=&#34;modal&#34; aria-label=&#34;Close&#34;&gt;
-          &lt;span aria-hidden=&#34;true&#34;&gt;&amp;times;&lt;/span&gt;
-        &lt;/button&gt;
-      &lt;/div&gt;
-      &lt;img id=&#34;viz_avg_modal&#34; src=&#34;&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-Bibliography called, but no references
-
-
-
-&lt;script type=&#34;module&#34; src=&#34;ufpr.js&#34;&gt;&lt;/script&gt;</description>
     </item>
     
   </channel>
