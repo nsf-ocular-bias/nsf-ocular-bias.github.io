@@ -5,7 +5,7 @@
     <link>/updates/</link>
       <atom:link href="/updates/index.xml" rel="self" type="application/rss+xml" />
     <description>Updates</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 VCBSL, Wichita State University</copyright><lastBuildDate>Mon, 12 Dec 2022 11:35:52 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 VCBSL, Wichita State University</copyright><lastBuildDate>Thu, 02 Feb 2023 11:35:52 -0500</lastBuildDate>
     <image>
       <url>/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png</url>
       <title>Updates</title>
@@ -13,7 +13,87 @@
     </image>
     
     <item>
-      <title>Results</title>
+      <title>Final Results</title>
+      <link>/updates/final-results/</link>
+      <pubDate>Thu, 02 Feb 2023 11:35:52 -0500</pubDate>
+      <guid>/updates/final-results/</guid>
+      <description>&lt;p&gt;This page features condensed results of all the analysis that was done.&lt;/p&gt;
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/intro.png&#34; alt=&#34;Introduction&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fairness-evaluation-studies-across-biometric-modalities&#34;&gt;Fairness evaluation studies across Biometric Modalities&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/studies.png&#34; alt=&#34;Studies&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fairness-in-face-recognition&#34;&gt;Fairness in Face Recognition&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/fairness.png&#34; alt=&#34;Fairness&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ocular--motivation&#34;&gt;Ocular : Motivation&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/ocular.png&#34; alt=&#34;Ocular Motivation&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;research-objectives&#34;&gt;Research Objectives&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/research.png&#34; alt=&#34;Research&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;covariates-to-be-studied&#34;&gt;Covariates to be Studied&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/covariates.png&#34; alt=&#34;Covariates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;datasets-used&#34;&gt;Datasets Used&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/datasets.png&#34; alt=&#34;Datasets&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;gender-classification&#34;&gt;Gender Classification&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/gender_classification.png&#34; alt=&#34;Gender Classification&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide17.JPG&#34; alt=&#34;Gender Classification&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;updates-to-training&#34;&gt;Updates to Training&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide18.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-model---vis&#34;&gt;Across Model - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide19.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-model---nir&#34;&gt;Across Model - NIR&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide20.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-model---nir-cross-dataset&#34;&gt;Across Model - NIR (Cross Dataset)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide21.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-databalance---vis&#34;&gt;Across Databalance - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide22.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-databalance---nir&#34;&gt;Across Databalance - NIR&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide23.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-race---vis&#34;&gt;Across Race - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide24.JPG&#34; alt=&#34;Updates&#34;&gt;
+&lt;img src=&#34;imgs/Slide25.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-age---vis&#34;&gt;Across Age - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide26.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-modality---vis&#34;&gt;Across Modality - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide27.JPG&#34; alt=&#34;Updates&#34;&gt;
+&lt;img src=&#34;imgs/Slide28.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-modality---nir&#34;&gt;Across Modality - NIR&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide29.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-device---vis&#34;&gt;Across Device - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide30.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-lighting---vis&#34;&gt;Across Lighting - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide31.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-spectrum&#34;&gt;Across Spectrum&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide32.JPG&#34; alt=&#34;Updates&#34;&gt;
+&lt;img src=&#34;imgs/Slide33.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;subject-verification&#34;&gt;Subject Verification&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide34.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-model---vis-1&#34;&gt;Across Model - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide35.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-model---nir-1&#34;&gt;Across Model - NIR&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide36.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-databalance---vis-1&#34;&gt;Across Databalance - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide37.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-databalance---nir-1&#34;&gt;Across Databalance - NIR&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide38.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-race---vis-1&#34;&gt;Across Race - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide39.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-modality---vis-1&#34;&gt;Across Modality - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide40.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-modality---nir-1&#34;&gt;Across Modality - NIR&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide41.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-device---vis-1&#34;&gt;Across Device - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide42.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-lighting---vis-1&#34;&gt;Across Lighting - VIS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide43.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;across-spectrum-1&#34;&gt;Across Spectrum&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide44.JPG&#34; alt=&#34;Updates&#34;&gt;
+&lt;img src=&#34;imgs/Slide45.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;imgs/Slide46.JPG&#34; alt=&#34;Updates&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Results - Tables and Charts</title>
       <link>/updates/results/</link>
       <pubDate>Mon, 12 Dec 2022 11:35:52 -0500</pubDate>
       <guid>/updates/results/</guid>
@@ -8969,7 +9049,7 @@
     </item>
     
     <item>
-      <title>Report</title>
+      <title>Intermediate Report</title>
       <link>/updates/report/</link>
       <pubDate>Fri, 01 Jul 2022 11:35:52 -0500</pubDate>
       <guid>/updates/report/</guid>
@@ -9368,7 +9448,7 @@ to 59 years) and Older Adults (60 to 79 years).
     </item>
     
     <item>
-      <title>Miscellaneous Results</title>
+      <title>Preliminary Miscellaneous Results</title>
       <link>/updates/misc-results/</link>
       <pubDate>Mon, 02 May 2022 11:35:52 -0500</pubDate>
       <guid>/updates/misc-results/</guid>

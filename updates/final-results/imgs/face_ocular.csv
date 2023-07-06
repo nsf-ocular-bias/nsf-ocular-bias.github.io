@@ -1,0 +1,19 @@
+Experiment ID,Modal,EER-diff
+efficientnet_b0,Face,0.006280286
+xception,Face,0.014237003
+inception_v3,Face,0.001087516
+efficientnet_b4,Face,-0.007872532
+mobilenetv2_100,Face,0.006534833
+densenet121,Face,0.014796932
+vit_base_patch16_224,Face,-0.037500448
+inception_resnet_v2,Face,-0.02678558
+resnet50,Face,-0.020051176
+efficientnet_b0,Ocular,-0.00105113
+xception,Ocular,0.009670812
+inception_v3,Ocular,0.002162325
+efficientnet_b4,Ocular,-0.017144858
+mobilenetv2_100,Ocular,0.003024502
+densenet121,Ocular,0.003841603
+vit_base_patch16_224,Ocular,-0.006716486
+inception_resnet_v2,Ocular,0.014575384
+resnet50,Ocular,0.011457651
