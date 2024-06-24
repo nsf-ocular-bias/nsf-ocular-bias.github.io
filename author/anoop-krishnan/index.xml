@@ -5,12 +5,156 @@
     <link>/author/anoop-krishnan/</link>
       <atom:link href="/author/anoop-krishnan/index.xml" rel="self" type="application/rss+xml" />
     <description>Anoop Krishnan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 VCBSL, Wichita State University</copyright><lastBuildDate>Wed, 13 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 VCBSL, Wichita State University</copyright><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu06375921a11c4bfd943c316038ab1a00_475295_300x300_fit_lanczos_3.png</url>
       <title>Anoop Krishnan</title>
       <link>/author/anoop-krishnan/</link>
     </image>
+    
+    <item>
+      <title>Demographic Bias Mitigation at Test-Time Using Uncertainty Estimation and Human-Machine Partnership</title>
+      <link>/publication/ssrn/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/ssrn/</guid>
+      <description>&lt;!-- ![Updates](imgs/1.JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(2).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(3).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(4).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(5).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(6).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(7).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(8).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(9).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(10).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(11).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(12).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(13).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(14).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(15).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(16).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(17).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(18).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(19).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(20).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(21).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(22).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(23).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(24).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(25).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(26).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(27).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(28).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(29).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(30).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(31).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(32).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(33).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(34).JPG) --&gt;
+ &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt; 
+</description>
+    </item>
+    
+    <item>
+      <title>A novel approach for bias mitigation of gender classification algorithms using consistency regularization</title>
+      <link>/publication/journal_2/</link>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/journal_2/</guid>
+      <description>&lt;!-- ![Updates](imgs/1.JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(2).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(3).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(4).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(5).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(6).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(7).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(8).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(9).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(10).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(11).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(12).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(13).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(14).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(15).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(16).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(17).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(18).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(19).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(20).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(21).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(22).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(23).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(24).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(25).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(26).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(27).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(28).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(29).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(30).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(31).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(32).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(33).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(34).JPG) --&gt;
+ &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt; 
+</description>
+    </item>
+    
+    <item>
+      <title>Is Facial Recognition Biased at Near-Infrared Spectrum as Well?</title>
+      <link>/publication/ieee_hst/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/ieee_hst/</guid>
+      <description>&lt;!-- ![Updates](imgs/1.JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(2).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(3).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(4).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(5).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(6).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(7).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(8).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(9).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(10).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(11).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(12).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(13).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(14).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(15).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(16).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(17).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(18).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(19).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(20).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(21).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(22).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(23).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(24).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(25).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(26).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(27).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(28).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(29).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(30).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(31).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(32).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(33).JPG) --&gt;
+&lt;!-- ![Updates](imgs/icpr%20(34).JPG) --&gt;
+ &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt; 
+</description>
+    </item>
     
     <item>
       <title>Investigating Fairness of Ocular Biometrics Among Young, Middle-Aged, and Older Adults</title>
