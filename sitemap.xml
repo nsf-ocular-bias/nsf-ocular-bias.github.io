@@ -2,7 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/publication/book2/</loc>
+    <lastmod>2024-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/journal/</loc>
+    <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/author/sreeraj-ramachandran/</loc>
+  </url><url>
+    <loc>/publication/gbdf/</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/icpr/</loc>
+    <lastmod>2022-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/ieee_hst/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/iccst_2021/</loc>
+    <lastmod>2021-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/journal_2/</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/ssrn/</loc>
+    <lastmod>2024-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/journal3/</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/chapter/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication-type/3/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
@@ -25,12 +55,6 @@
     <loc>/tag/bias/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ssrn/</loc>
-    <lastmod>2024-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/related_publications/book/</loc>
-    <lastmod>2024-01-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/face/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -49,9 +73,6 @@
     <loc>/publication/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/related_publications/</loc>
-    <lastmod>2024-01-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -64,9 +85,6 @@
     <loc>/tag/generative/</loc>
     <lastmod>2023-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/journal/</loc>
-    <lastmod>2023-11-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/sreeraj-ramachandran/</loc>
     <lastmod>2023-11-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -76,19 +94,7 @@
     <loc>/publication-type/2/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/journal_2/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/related_publications/gbdf/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/related_publications/journal/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication-type/6/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/chapter/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/updates/final-results/</loc>
@@ -100,9 +106,6 @@
     <loc>/author/brian-neas/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ieee_hst/</loc>
-    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/updates/results/</loc>
     <lastmod>2022-12-12T11:35:52-05:00</lastmod>
   </url><url>
@@ -111,9 +114,6 @@
   </url><url>
     <loc>/event/umdbb/</loc>
     <lastmod>2022-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/icpr/</loc>
-    <lastmod>2022-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/mitigation/</loc>
     <lastmod>2022-08-17T00:00:00+00:00</lastmod>
@@ -137,9 +137,6 @@
     <lastmod>2021-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/analysis/</loc>
-    <lastmod>2021-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/iccst_2021/</loc>
     <lastmod>2021-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/admin/</loc>
