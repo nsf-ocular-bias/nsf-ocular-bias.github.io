@@ -1,0 +1,39 @@
+Publication:
+ABRobOcular: Adversarial benchmarking and robustness analysis of datasets and tools for ocular-based user recognition
+Authors
+Bharath Krishnamurthy, Ajita Rattani
+
+Link: https://www.sciencedirect.com/science/article/pii/S0925231225010240
+
+DOOMGAN: High-Fidelity Dynamic Identity Obfuscation Ocular Generative Morphing
+Authors
+Bharath Krishnamurthy, Ajita Rattani
+
+Link: https://arxiv.org/abs/2507.17158
+
+@article{krishnamurthy2025abrobocular,
+  title={ABRobOcular: Adversarial benchmarking and robustness analysis of datasets and tools for ocular-based user recognition},
+  author={Krishnamurthy, Bharath and Rattani, Ajita},
+  journal={Neurocomputing},
+  pages={130352},
+  year={2025},
+  publisher={Elsevier}
+}
+
+@article{krishnamurthy2025doomgan,
+  title={DOOMGAN: High-Fidelity Dynamic Identity Obfuscation Ocular Generative Morphing},
+  author={Krishnamurthy, Bharath and Rattani, Ajita},
+  journal={arXiv preprint arXiv:2507.17158},
+  year={2025}
+}
+
+Code:
+https://github.com/Bharath-K3/ABRobOcular
+https://github.com/vcbsl/DOOMGAN
+
+Datasets:
+https://huggingface.co/datasets/BharathK333/ABRobOcular_Attacks
+https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs
+
+Models:
+https://huggingface.co/BharathK333/DOOMGAN
