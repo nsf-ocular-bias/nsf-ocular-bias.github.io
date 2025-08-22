@@ -1,0 +1,17 @@
+
+---
+title: "Publications"
+---
+
+- [ABRobOcular: Adversarial benchmarking and robustness analysis of datasets and tools for ocular-based user recognition](/publication/abrobocular/) (01 May 2025)
+- [DOOMGAN: High-Fidelity Dynamic Identity Obfuscation Ocular Generative Morphing](/publication/doomgan/) (01 May 2025)
+- [Demographic Fairness and Accountability of Audio and Video-based Unimodal and Bi-modal Deepfake Detectors](/publication/book2/) (30 January 2024)
+- [Leveraging Diffusion and Flow Matching Models for Demographic Bias Mitigation of Facial Attribute Classifiers](/publication/journal/) (30 November 2023)
+- [GBDF: Gender Balanced DeepFake Dataset Towards Fair DeepFake Detection](/publication/gbdf/) (30 September 2023)
+- [Deep Generative Views to Mitigate Gender Classification Bias Across Gender-Race Groups](/publication/icpr/) (17 August 2022)
+- [Is Facial Recognition Biased at Near-Infrared Spectrum as Well?](/publication/ieee_hst/) (30 January 2023)
+- [Investigating Fairness of Ocular Biometrics Among Young, Middle-Aged, and Older Adults](/publication/iccst_2021/) (13 October 2021)
+- [A novel approach for bias mitigation of gender classification algorithms using consistency regularization](/publication/journal_2/) (30 September 2023)
+- [Demographic Bias Mitigation at Test-Time Using Uncertainty Estimation and Human-Machine Partnership](/publication/ssrn/) (30 January 2024)
+- [ProActive DeepFake Detection using GAN-based Visible Watermarking](/publication/journal3/) (30 September 2023)
+- [An Examination and Comparison of Fairness of Face and Ocular Recognition Across Gender at NIR Spectrum](/publication/chapter/) (01 July 2023)
