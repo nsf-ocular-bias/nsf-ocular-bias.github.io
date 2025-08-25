@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="This paper presents DOOMGAN, a novel generative adversarial network framework for high-fidelity dynamic identity obfuscation in ocular morphing applications. Our approach addresses the critical need for privacy-preserving ocular data sharing while maintaining utility for legitimate research purposes. DOOMGAN generates realistic ocular morphs that preserve identity anonymity while retaining key biometric characteristics necessary for algorithm development and testing. We introduce innovative techniques for controlling the morphing process, enabling fine-grained adjustment of identity obfuscation levels. Experimental evaluation demonstrates that DOOMGAN produces high-quality ocular morphs that effectively prevent identity recognition while preserving utility for ocular recognition algorithm training and benchmarking. Our framework provides a valuable tool for the research community to share ocular data responsibly." />
+  <meta name="description" content="Ocular biometrics in the visible spectrum have emerged as a prominent modality due to their high accuracy, resistance to spoofing, and non-invasive nature. However, morphing attacks, synthetic biometric traits created by blending features from multiple individuals, threaten biometric system integrity. While extensively studied for nearinfrared iris and face biometrics, morphing in visiblespectrum ocular data remains underexplored. Simulating such attacks demands advanced generation models that handle uncontrolled conditions while preserving detailed ocular features like iris boundaries and periocular textures. To address this gap, we introduce DOOMGAN, that encompasses landmark-driven encoding of visible ocular anatomy, attention-guided generation for realistic morph synthesis, and dynamic weighting of multi-faceted losses for optimized convergence. DOOMGAN achieves over 20% higher attack success rates than baseline methods under stringent thresholds, along with 20% better elliptical iris structure generation and 30% improved gaze consistency. We also release the first comprehensive ocular morphing dataset to support further research in this domain." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/doomgan/" />
@@ -575,8 +575,7 @@
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/doomgan/cite.bib">
+<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:IcyCDFY7keoJ:scholar.google.com/&output=citation&scisdr=CgIkRQ47ELjA32bIUgY:AAZF9b8AAAAAaKfOSgbZH4-9kdRgRKjyGvzi7Kc&scisig=AAZF9b8AAAAAaKfOSss-girZXBMPYloMVGD0Vfk&scisf=4&ct=citation&cd=-1&hl=en" target="_blank" rel="noopener" class="btn btn-outline-primary btn-page-header">
   Cite
 </a>
 
@@ -610,6 +609,12 @@
 
 
 
+<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:IcyCDFY7keoJ:scholar.google.com/&output=citation&scisdr=CgIkRQ47ELjA32bIUgY:AAZF9b8AAAAAaKfOSgbZH4-9kdRgRKjyGvzi7Kc&scisig=AAZF9b8AAAAAaKfOSss-girZXBMPYloMVGD0Vfk&scisf=4&ct=citation&cd=-1&hl=en" target="_blank" rel="noopener" class="btn btn-outline-primary btn-page-header">
+  Cite
+</a>
+
+
+
 </div>
 
 
@@ -629,7 +634,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">This paper presents DOOMGAN, a novel generative adversarial network framework for high-fidelity dynamic identity obfuscation in ocular morphing applications. Our approach addresses the critical need for privacy-preserving ocular data sharing while maintaining utility for legitimate research purposes. DOOMGAN generates realistic ocular morphs that preserve identity anonymity while retaining key biometric characteristics necessary for algorithm development and testing. We introduce innovative techniques for controlling the morphing process, enabling fine-grained adjustment of identity obfuscation levels. Experimental evaluation demonstrates that DOOMGAN produces high-quality ocular morphs that effectively prevent identity recognition while preserving utility for ocular recognition algorithm training and benchmarking. Our framework provides a valuable tool for the research community to share ocular data responsibly.</p>
+    <p class="pub-abstract">Ocular biometrics in the visible spectrum have emerged as a prominent modality due to their high accuracy, resistance to spoofing, and non-invasive nature. However, morphing attacks, synthetic biometric traits created by blending features from multiple individuals, threaten biometric system integrity. While extensively studied for nearinfrared iris and face biometrics, morphing in visiblespectrum ocular data remains underexplored. Simulating such attacks demands advanced generation models that handle uncontrolled conditions while preserving detailed ocular features like iris boundaries and periocular textures. To address this gap, we introduce DOOMGAN, that encompasses landmark-driven encoding of visible ocular anatomy, attention-guided generation for realistic morph synthesis, and dynamic weighting of multi-faceted losses for optimized convergence. DOOMGAN achieves over 20% higher attack success rates than baseline methods under stringent thresholds, along with 20% better elliptical iris structure generation and 30% improved gaze consistency. We also release the first comprehensive ocular morphing dataset to support further research in this domain.</p>
     
 
     
@@ -645,9 +650,9 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#3">
+            <a href="/publication/#1">
               
-              Preprint
+              Conference paper
             </a>
           </div>
         </div>
@@ -16951,4 +16956,92 @@
     
 
 
-</rss>"}
+        <div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+    
+
+    
+    
+
+    
+      
+      <script id="dsq-count-scr" src="https://nsf-ocular-bias.disqus.com/count.js" async></script>
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    <script src="/en/js/wowchemy.min.4bba0826db6409c865d2e7b99039d6d0.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+</body>
+</html>"}
