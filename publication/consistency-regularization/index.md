@@ -1,8 +1,9 @@
 ---
 title: "A novel approach for bias mitigation of gender classification algorithms using consistency regularization"
 date: 2023-09-01
-publication_types: ["2"]
+publication_types: ["1"]
 authors: []
-publication: "Pattern Recognition Letters"
+publication: "IEEE"
 url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9esyU2EAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=9esyU2EAAAAJ:vbGhcppDl1QC"
+abstract: "Published research has confirmed the bias of automated face-based gender classification algorithms across gender-racial groups. Specifically, unequal accuracy rates were obtained for women and dark-skinned people for face-based automated gender classification algorithms. To mitigate the bias of gender classification and other facial-analysis-based algorithms in general, the vision community has proposed several techniques. However, most of the existing bias mitigation techniques suffer from a lack of generalizability, need a demographically-annotated training set, are application-specific, and often offer a trade-off between fairness and classification accuracy. This means that fairness is often obtained at the cost of a reduction in the classification accuracy of the best-performing demographic sub-group. In this paper, we propose a novel bias mitigation technique that leverages the power of semantic preserving augmentations at the image- and feature-level in a self-consistency setting for the downstream gender classification task. Thorough experimental validation on gender-annotated facial image datasets confirms the efficacy of our bias mitigation technique in improving overall gender classification accuracy as well as reducing bias across all gender-racial groups over state-of-the-art bias mitigation techniques."
 ---
