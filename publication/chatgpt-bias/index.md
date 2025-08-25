@@ -1,0 +1,9 @@
+---
+title: "Analyzing and mitigating bias of facial attribute classifiers using ChatGPT"
+date: 2025-01-01
+publication_types: ["2"]
+authors: []
+publication: "Neural Networks"
+url_pdf: "https://www.sciencedirect.com/science/article/pii/S0925231225014973?ref=pdf_download&fr=RR-2&rr=974de9c9a8cfc871"
+abstract: "Recent studies have demonstrated the potential of ChatGPT in facial attribute classification, achieving accuracies comparable to those of vision models. However, limited research has been conducted on the fairness of ChatGPT in this context. This paper investigates the fairness of ChatGPT in facial attribute classification and examines how its natural language explanations (linguistic features) can enhance both fairness and explainability in traditional vision model for facial attribute classification by proposing: (a) a novel training framework that integrates ChatGPT’s linguistic features with vision models to improve both classification accuracy and fairness, and (b) a mapping function between the feature spaces of vision and language models, enabling ChatGPT to provide natural language explanations of the vision model’s decision-making process. To evaluate our approach, we conduct two types of experiments: (1) face-based gender classification, where race is considered the protected attribute, and (2) gender-independent classification of 13 facial attributes, where gender is the protected attribute. Our experimental results on popular facial attribute datasets show that ChatGPT offers complementary strengths in obtaining fairer outcomes over vision classifiers for different facial attribute classification tasks across demographic attributes. Moreover, incorporating ChatGPT’s linguistic descriptions enhances vision model accuracy by 1.16% to 1.34%, reduces demographic performance disparities by 1.23% to 11.32%, and provides interpretable explanations, all without altering the architecture of the vision model."
+---

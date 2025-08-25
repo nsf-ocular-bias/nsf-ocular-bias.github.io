@@ -1,0 +1,9 @@
+---
+title: "A Self-Supervised Learning Pipeline for Demographically Fair Facial Attribute Classification"
+date: 2024-11-11
+publication_types: ["1"]
+authors: []
+publication: "IEEE"
+url_pdf: "https://ieeexplore.ieee.org/abstract/document/10744477"
+abstract: "Published research highlights the presence of demographic bias in automated facial attribute classification. The proposed bias mitigation techniques are mostly based on supervised learning, which requires a large amount of labeled training data for generalizability and scalability. However, labeled data is limited, requires laborious annotation, poses privacy risks, and can perpetuate human bias. In contrast, self-supervised learning (SSL) capitalizes on freely available unlabeled data, rendering trained models more scalable and generalizable. However, these label-free SSL models may also introduce biases by sampling false negative pairs, especially at low-data regimes (< 200K images) under low compute settings. Further, SSL-based models may suffer from performance degradation due to a lack of quality assurance of the unlabeled data sourced from the web. This paper proposes a fully self-supervised pipeline for demographically fair facial attribute classifiers. Leveraging completely unlabeled data pseudolabeled via pre-trained encoders, diverse data curation techniques, and meta-learning-based weighted contrastive learning, our method significantly outperforms existing SSL approaches proposed for downstream image classification tasks. Extensive evaluations on the FairFace and CelebA datasets demonstrate the efficacy of our pipeline in obtaining fair performance over existing baselines. Thus, setting a new benchmark for SSL in the fairness of facial attribute classification. To facilitate reproducibility, the code, and the curated dataset information is available at https://github.com/nsf-ocular-bias/ssl-ijcb."
+---
