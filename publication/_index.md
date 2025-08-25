@@ -3,6 +3,10 @@ title: "Publications"
 ---
 
 - [Analyzing and mitigating bias of facial attribute classifiers using ChatGPT](/publication/chatgpt-bias/) (2025)
+- [FineFACE: Fair Facial Attribute Classification Leveraging Fine-Grained Features](/publication/fineface/) (02 December 2024)
+- [A Self-Supervised Learning Pipeline for Demographically Fair Facial Attribute Classification](/publication/self-supervised-fairness/) (11 November 2024)
+- [A novel approach for bias mitigation of gender classification algorithms using consistency regularization](/publication/consistency-regularization/) (September 2023)
+- [Benchmarking Neural Network Compression Techniques for Ocular-Based User Authentication on Smartphones](/publication/neural-network-compression/) (06 April 2023)
 - [ABRobOcular: Adversarial benchmarking and robustness analysis of datasets and tools for ocular-based user recognition](/publication/abrobocular/) (01 May 2025)
 - [DOOMGAN: High-Fidelity Dynamic Identity Obfuscation Ocular Generative Morphing](/publication/doomgan/) (01 May 2025)
 - [Demographic Fairness and Accountability of Audio and Video-based Unimodal and Bi-modal Deepfake Detectors](/publication/book2/) (30 January 2024)
