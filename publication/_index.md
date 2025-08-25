@@ -1,8 +1,12 @@
-
 ---
 title: "Publications"
 ---
 
+- [Analyzing and mitigating bias of facial attribute classifiers using ChatGPT](https://www.sciencedirect.com/science/article/pii/S0925231225014973?ref=pdf_download&fr=RR-2&rr=974de9c9a8cfc871) (2025)
+- [FineFACE: Fair Facial Attribute Classification Leveraging Fine-Grained Features](https://link.springer.com/chapter/10.1007/978-3-031-78110-0_6) (02 December 2024)
+- [A Self-Supervised Learning Pipeline for Demographically Fair Facial Attribute Classification](https://ieeexplore.ieee.org/abstract/document/10744477) (11 November 2024)
+- [A novel approach for bias mitigation of gender classification algorithms using consistency regularization](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9esyU2EAAAAJ&pagesize=80&sortby=pubdate&citation_for_view=9esyU2EAAAAJ:vbGhcppDl1QC) (September 2023)
+- [Benchmarking Neural Network Compression Techniques for Ocular-Based User Authentication on Smartphones](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9esyU2EAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=9esyU2EAAAAJ:BUYA1_V_uYcC) (06 April 2023)
 - [ABRobOcular: Adversarial benchmarking and robustness analysis of datasets and tools for ocular-based user recognition](/publication/abrobocular/) (01 May 2025)
 - [DOOMGAN: High-Fidelity Dynamic Identity Obfuscation Ocular Generative Morphing](/publication/doomgan/) (01 May 2025)
 - [Demographic Fairness and Accountability of Audio and Video-based Unimodal and Bi-modal Deepfake Detectors](/publication/book2/) (30 January 2024)
