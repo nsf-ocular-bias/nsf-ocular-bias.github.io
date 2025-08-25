@@ -123,7 +123,7 @@
     <div class="row">
       <div class="col-lg-12">
         <h1>NSF Biometrics Performance Disparity Codebase</h1>
-        <p>This codebase contains implementations and experiments related to probing fairness of ocular biometrics methods across demographic variations.</p>
+        <p>The dataset curation pipeline begins by collecting large-scale unlabeled face images from sources like LAION and BUPT, while using FairFace as a balanced reference dataset. All images are embedded using a pretrained CLIP encoder, and duplicates in the unlabeled set are removed via cosine similarity. A similarity search then retrieves diverse and high-quality samples that align with FairFace examples, with optional filtering through a face image quality assessment tool to remove low-quality images. The final curated dataset (~200K images) combines FairFace with selected unlabeled samples, ensuring diversity, balance, and quality for fair and effective facial attribute classification.</p>
         <p><a href="https://github.com/nsf-ocular-bias/ssl-ijcb" class="btn btn-primary" target="_blank">View on GitHub</a></p>
       </div>
     </div>
